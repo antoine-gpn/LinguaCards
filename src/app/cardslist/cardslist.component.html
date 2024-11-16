@@ -1,0 +1,9 @@
+<div class="cardslist-bloc">
+  <h1>All cards</h1>
+
+  <div class="cardslist">
+    @for(card of cards; track card.id){
+    <app-card [card]="card" />
+    }
+  </div>
+</div>

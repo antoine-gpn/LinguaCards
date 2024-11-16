@@ -1,0 +1,19 @@
+.cardslist-bloc {
+  background-color: lightgrey;
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  height: 90%;
+}
+
+.cardslist {
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border-radius: 10px;
+  border: solid 1px rgb(80, 80, 80);
+  border-right: none;
+}

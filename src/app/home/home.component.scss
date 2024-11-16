@@ -1,0 +1,54 @@
+.home {
+  width: 100%;
+  display: flex;
+  height: 100%;
+}
+
+.home-main {
+  width: 60%;
+}
+
+.home-cards {
+  width: 40%;
+}
+
+.main-bloc {
+  border-radius: 20px;
+  width: 80%;
+  height: 80%;
+  background-color: lightgrey;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.learn-blocs {
+  //border: solid 1px black;
+  justify-content: space-around;
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.learn-bloc {
+  border: solid 1px black;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+}
+
+.button-start {
+  border-radius: 20px;
+  width: 50%;
+  height: 40px;
+  border: solid 1px black;
+  margin-top: 300px;
+}
+
+.button-add {
+  border-radius: 20px;
+  width: 15%;
+  height: 40px;
+  border: solid 1px black;
+}

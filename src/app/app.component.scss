@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.footer {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+  height: 90vh;
+}

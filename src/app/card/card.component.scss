@@ -1,0 +1,32 @@
+.card {
+  width: 100%;
+  background-color: gray;
+  border: solid 1px rgb(80, 80, 80);
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+h4 {
+  margin: 0;
+}
+
+.button-delete {
+  border-radius: 20%;
+  border: solid 1px grey;
+}
+
+.card-buttons-container {
+  width: 25%;
+  justify-content: space-around;
+
+  button {
+    margin-right: 8px;
+  }
+}
+
+fa-icon {
+  font-size: 1.4em;
+  color: rgb(26, 26, 26);
+}

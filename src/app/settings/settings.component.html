@@ -1,10 +1,29 @@
 <div class="settings-bloc">
   <h3>Username</h3>
-  <button>Logout</button>
-  <button>Delete my account</button>
-  <button>Feature request</button>
-  <h3>Follow me on social medias</h3>
-  <button>Portfolio</button>
-  <button>Github</button>
-  <button>Linkedin</button>
+  <div class="settings-buttons">
+    <button>Logout</button>
+    <button>Delete my account</button>
+    <button>Feature request</button>
+  </div>
+  <h3>App made by ©Antoine Grappin</h3>
+  <div class="socials-bloc">
+    <div>
+      <a>
+        <fa-icon [icon]="faGlobe" /><br />
+        Portfolio
+      </a>
+    </div>
+    <div>
+      <a>
+        <fa-icon [icon]="faGithub" /><br />
+        <span>Github</span>
+      </a>
+    </div>
+    <div>
+      <a>
+        <fa-icon [icon]="faLinkedin" /><br />
+        Linkedin
+      </a>
+    </div>
+  </div>
 </div>

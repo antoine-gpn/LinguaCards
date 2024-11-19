@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CardService } from '../services/card.service';
 import { CardComponent } from '../card/card.component';
 
 @Component({
@@ -8,8 +9,12 @@ import { CardComponent } from '../card/card.component';
   templateUrl: './cardslist.component.html',
   styleUrl: './cardslist.component.scss',
 })
-export class CardslistComponent {
-  cards: any[] = [
+export class CardslistComponent implements OnInit {
+  constructor(private cardService: CardService) {}
+
+  cards!: any[];
+
+  /*cards: any[] = [
     { id: 1, front_text: 'welcoming', back_text: 'accueillant' },
     { id: 2, front_text: 'annoyed', back_text: 'agacé' },
     { id: 3, front_text: 'kind', back_text: 'aimable' },
@@ -25,5 +30,12 @@ export class CardslistComponent {
     { id: 13, front_text: 'guilty', back_text: 'coupable' },
     { id: 14, front_text: 'curious', back_text: 'curieux' },
     { id: 15, front_text: 'disgusting', back_text: 'dégoûtant' },
-  ];
+    { id: 15, front_text: 'disgusting', back_text: 'dégoûtant' },
+  ];*/
+
+  async ngOnInit() {
+    const cards = await this.cardService.getAllCards();
+    console.log(cards);
+    this.cards = cards;
+  }
 }

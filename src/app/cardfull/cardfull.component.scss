@@ -1,0 +1,16 @@
+.card {
+  margin: auto;
+  border-radius: 10px;
+  border: solid 2px black;
+  width: 30%;
+  margin-top: 3%;
+  height: 80%;
+  max-width: 500px;
+  min-width: 350px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    margin-top: 6%;
+  }
+}

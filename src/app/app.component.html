@@ -1,7 +1,12 @@
 <div class="wrapper">
+  @if(showHeader){
   <app-header />
+  }
+
   <div class="main">
     <router-outlet />
   </div>
+  @if(showFooter){
   <app-footer class="footer" />
+  }
 </div>

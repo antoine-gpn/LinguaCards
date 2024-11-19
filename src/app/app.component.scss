@@ -4,12 +4,22 @@
   height: 100vh;
 }
 
-.footer {
-  background-color: lightblue;
-  text-align: center;
+app-header {
+  height: 6vh;
+  border-bottom: solid 2px rgba(128, 128, 128, 0.548);
+  background-color: rgb(206, 224, 231);
+  padding-top: 10px;
 }
 
 .main {
   flex: 1;
-  height: 90vh;
+  height: 80vh;
+}
+
+.footer {
+  background-color: rgb(206, 224, 231);
+  text-align: center;
+  height: 5.5vh;
+  padding-top: 10px;
+  border-top: solid 2px rgba(128, 128, 128, 0.548);
 }

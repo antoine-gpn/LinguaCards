@@ -16,15 +16,15 @@
   border-radius: 20px;
   width: 80%;
   height: 80%;
-  background-color: lightgrey;
+  background-color: rgb(206, 224, 231);
   margin: auto;
   margin-top: 50px;
   padding-top: 30px;
   text-align: center;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
 .learn-blocs {
-  //border: solid 1px black;
   justify-content: space-around;
   display: flex;
   width: 70%;
@@ -32,23 +32,45 @@
 }
 
 .learn-bloc {
-  border: solid 1px black;
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   text-align: center;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
 .button-start {
   border-radius: 20px;
-  width: 50%;
+  width: 70%;
   height: 40px;
-  border: solid 1px black;
-  margin-top: 300px;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
 .button-add {
-  border-radius: 20px;
-  width: 15%;
+  border-radius: 30px;
+  padding: 1%;
+  width: 5.75%;
   height: 40px;
-  border: solid 1px black;
+  margin-left: 5%;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+}
+
+.buttons-main {
+  margin: auto;
+  margin-top: 300px;
+  width: 75%;
+}
+
+.to-learn {
+  color: rgb(218, 76, 76);
+}
+
+.learning {
+  color: rgb(201, 138, 22);
+}
+
+.learned {
+  color: rgb(60, 182, 60);
 }

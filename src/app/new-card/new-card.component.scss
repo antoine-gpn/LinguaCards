@@ -1,0 +1,53 @@
+.newcard-bloc {
+  text-align: center;
+  width: 35%;
+  min-width: 400px;
+  height: 75vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+  background-color: #cee0e7;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  border: solid 1px black;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input {
+  background-color: rgba($color: #000000, $alpha: 0);
+  border: none;
+  width: 100%;
+  height: 25px;
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+fieldset:focus-within {
+  border: solid 2px black;
+}
+
+.button-save {
+  width: 20%;
+  padding: 8px;
+  border-radius: 10px;
+  border: solid 1px black;
+}
+
+.fieldset {
+  margin-bottom: 30px;
+}

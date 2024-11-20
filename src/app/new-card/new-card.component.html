@@ -1,0 +1,29 @@
+<div class="newcard-bloc">
+  <form [formGroup]="form" (submit)="sumbmitForm()">
+    <div class="fieldset">
+      <fieldset>
+        <legend>Front Text</legend>
+        <input
+          type="text"
+          placeholder="Enter a word"
+          name="frontText"
+          formControlName="frontText"
+        />
+      </fieldset>
+    </div>
+    <div class="fieldset">
+      <fieldset>
+        <legend>Back Text</legend>
+        <input
+          type="text"
+          placeholder="Enter a word"
+          name="backText"
+          formControlName="backText"
+        />
+      </fieldset>
+    </div>
+    <div>
+      <button type="submit" class="button-save">Save</button>
+    </div>
+  </form>
+</div>

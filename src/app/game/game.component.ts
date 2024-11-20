@@ -3,7 +3,11 @@ import { RouterLink } from '@angular/router';
 import { CardfullComponent } from '../cardfull/cardfull.component';
 import { NgClass } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faL, faReply } from '@fortawesome/free-solid-svg-icons';
+import {
+  faReply,
+  faArrowLeft,
+  faArrowRight,
+} from '@fortawesome/free-solid-svg-icons';
 import { CardService } from '../services/card.service';
 import { Renderer2 } from '@angular/core';
 
@@ -25,24 +29,29 @@ export class GameComponent implements OnInit {
   currentX: number = 0;
   isDragging: boolean = false;
   isTransitioning: boolean = false;
-  back = faReply;
   isBackTextHidden: boolean = true;
   isFrontTextHidden: boolean = false;
+
+  back = faReply;
+  left = faArrowLeft;
+  right = faArrowRight;
 
   async ngOnInit() {
     this.cards = await this.cardService.getAllLearningCards();
     this.currentCard = this.cards[0];
-    console.log(this.cards);
   }
 
   flip() {
-    this.isFlipped = true;
+    console.log(this.isFlipped);
+    if (!this.isFlipped) {
+      this.isFlipped = true;
 
-    this.isBackTextHidden = true;
+      this.isBackTextHidden = true;
 
-    setTimeout(() => {
-      this.isBackTextHidden = false;
-    }, 300);
+      setTimeout(() => {
+        this.isBackTextHidden = false;
+      }, 300);
+    }
   }
 
   flipOnNewCard() {
@@ -92,7 +101,7 @@ export class GameComponent implements OnInit {
           this.flipOnNewCard();
           this.replaceCard();
           frontCard.style.transition = 'none';
-          e;
+
           frontCard.style.transform = 'translateX(0)';
           frontCard.style.opacity = '1';
 

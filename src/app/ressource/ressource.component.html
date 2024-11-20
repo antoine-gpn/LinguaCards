@@ -1,0 +1,8 @@
+<div class="cards-list">
+  @for(card of cards; track card['id']){
+  <div class="card">
+    <b>{{ card["front_text"] }}</b> :
+    {{ card["back_text"] }}
+  </div>
+  }
+</div>

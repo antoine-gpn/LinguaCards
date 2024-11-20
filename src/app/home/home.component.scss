@@ -39,10 +39,14 @@
   box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
+.learn-text {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
 .button-start {
   border-radius: 20px;
   width: 70%;
-  height: 40px;
   border: solid 1px grey;
   box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
@@ -73,4 +77,28 @@
 
 .learned {
   color: rgb(60, 182, 60);
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .home-main {
+    width: 100%;
+  }
+
+  .home-cards {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .learn-blocs {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .learn-bloc {
+    margin-bottom: 20px;
+  }
 }

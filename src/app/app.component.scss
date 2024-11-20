@@ -13,7 +13,8 @@ app-header {
 
 .main {
   flex: 1;
-  height: 80vh;
+  height: auto;
+  overflow-y: auto;
 }
 
 .footer {
@@ -22,4 +23,15 @@ app-header {
   height: 5.5vh;
   padding-top: 10px;
   border-top: solid 2px rgba(128, 128, 128, 0.548);
+}
+
+@media (max-width: 800px) {
+  .wrapper {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .main {
+    flex: 1 0 auto;
+  }
 }

@@ -1,12 +1,15 @@
 .ressource {
-  border: solid 1px black;
+  border: solid 1px white;
   border-radius: 15px;
   width: 20%;
-  height: 200px;
-  margin-top: 45px;
+  min-width: 200px;
+  height: 28vh;
+  margin-top: 20px;
   background-image: url("/uk.svg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .ressources-list {

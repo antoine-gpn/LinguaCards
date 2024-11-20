@@ -1,47 +1,61 @@
-<a routerLink=""
-  ><button class="return-button"><fa-icon [icon]="back" /></button
-></a>
+<div class="game-container">
+  <a routerLink=""
+    ><button class="return-button"><fa-icon [icon]="back" /></button
+  ></a>
+  <div class="swipe-infos">
+    <h4 class="swipe-left">
+      <fa-icon [icon]="left" /> If you need to see the card again, swipe left
+    </h4>
+    <h4 class="swipe-right">
+      If you had the answer, swipe right <fa-icon [icon]="right" />
+    </h4>
+  </div>
 
-<div
-  class="card-container"
-  (mousemove)="onDragMove($event)"
-  (mouseup)="onDragEnd()"
-  (mouseleave)="onDragEnd()"
-  (touchmove)="onDragMove($event)"
-  (touchend)="onDragEnd()"
->
-  <div class="card-wrapper" (click)="flip()" [ngClass]="{ flipped: isFlipped }">
-    @if(!isFlipped){
+  <div
+    class="card-container"
+    (mousemove)="onDragMove($event)"
+    (mouseup)="onDragEnd()"
+    (mouseleave)="onDragEnd()"
+    (touchmove)="onDragMove($event)"
+    (touchend)="onDragEnd()"
+  >
     <div
-      class="card front-card front"
+      class="card-wrapper"
       (click)="flip()"
-      (mousedown)="onDragStart($event)"
-      (touchstart)="onDragStart($event)"
-    >
-      <h1 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
-        {{ currentCard["front_text"] }}
-      </h1>
-      <h3 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
-        front side
-      </h3>
-    </div>
-    } @else {
-    <div
-      class="card front-card back"
-      (click)="flip()"
-      (mousedown)="onDragStart($event)"
-      (touchstart)="onDragStart($event)"
       [ngClass]="{ flipped: isFlipped }"
     >
-      <h1 [ngClass]="{ hide: isBackTextHidden }" class="back-text">
-        {{ currentCard["back_text"] }}
-      </h1>
-      <h3 [ngClass]="{ hide: isBackTextHidden }" class="front-text">
-        back side
-      </h3>
+      @if(!isFlipped){
+      <div
+        class="card front-card front"
+        (click)="flip()"
+        (mousedown)="onDragStart($event)"
+        (touchstart)="onDragStart($event)"
+      >
+        <h1 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
+          {{ currentCard["front_text"] }}
+        </h1>
+        <h3 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
+          front side
+        </h3>
+      </div>
+      } @else {
+      <div
+        class="card front-card back"
+        (click)="flip()"
+        (mousedown)="onDragStart($event)"
+        (touchstart)="onDragStart($event)"
+        [ngClass]="{ flipped: isFlipped }"
+      >
+        <h1 [ngClass]="{ hide: isBackTextHidden }" class="back-text">
+          {{ currentCard["back_text"] }}
+        </h1>
+        <h3 [ngClass]="{ hide: isBackTextHidden }" class="front-text">
+          back side
+        </h3>
+      </div>
+      }
     </div>
-    }
+    <div class="card back-card"></div>
+    <div class="card back-card-2"></div>
   </div>
-  <div class="card back-card"></div>
-  <div class="card back-card-2"></div>
 </div>

@@ -1,14 +1,13 @@
 <div class="ressources-list">
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
-  <div class="ressource"></div>
+  @for(ressource of ressources; track ressource['id']){
+
+  <a
+    [routerLink]="['/ressources', ressource['id']]"
+    class="ressource"
+    [ngStyle]="{
+      'background-image':
+        'url(' + 'http://localhost:4200/' + ressource['url'] + ')'
+    }"
+  ></a>
+  }
 </div>

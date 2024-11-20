@@ -3,6 +3,7 @@
   width: clamp(300px, 30%, 800px);
   height: 80%;
   margin: auto;
+  margin-top: 1%;
 }
 
 .card-wrapper {
@@ -55,6 +56,7 @@
 }
 
 .return-button {
+  position: fixed;
   margin-top: 1%;
   margin-left: 2%;
   font-size: 1.5em;
@@ -75,4 +77,35 @@
 
 .hide {
   display: none;
+}
+
+.game-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(252, 204, 204) 45%,
+    rgb(255, 240, 240) 50%,
+    rgb(234, 252, 234) 50%,
+    rgb(192, 250, 192) 55%
+  );
+}
+
+.swipe-infos {
+  padding-top: 2vh;
+  display: flex;
+  margin: auto;
+  min-width: 500px;
+  justify-content: space-around;
+  //border: solid 1px black;
+}
+
+.swipe-left {
+  color: green;
+  margin-top: 0;
+}
+
+.swipe-right {
+  color: red;
+  margin-top: 0;
 }

@@ -1,0 +1,15 @@
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.card {
+  text-align: center;
+  border: solid 1px black;
+  width: 25%;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 20px;
+}

@@ -1,11 +1,17 @@
 .settings-bloc {
   text-align: center;
-  width: 40%;
-  height: 100%;
+  width: 35%;
+  min-width: 400px;
+  height: 75vh;
   justify-content: center;
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-top: 5vh;
+  border-radius: 10px;
+  background-color: #cee0e7;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
 .socials-bloc {
@@ -28,5 +34,10 @@
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid grey;
+    padding: 10px;
   }
+}
+
+a {
+  color: black;
 }

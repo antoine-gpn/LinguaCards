@@ -3,17 +3,27 @@
     <div class="main-bloc">
       <div class="learn-blocs">
         <div class="learn-bloc">
-          <h2 class="to-learn">To Learn<br />{{ cardsStats["to learn"] }}</h2>
+          <p class="to-learn learn-text">
+            To Learn<br />{{ cardsStats["to learn"] }}
+          </p>
         </div>
         <div class="learn-bloc">
-          <h2 class="learning">Learning<br />{{ cardsStats["learning"] }}</h2>
+          <p class="learning learn-text">
+            Learning<br />{{ cardsStats["learning"] }}
+          </p>
         </div>
         <div class="learn-bloc">
-          <h2 class="learned">Learned<br />{{ cardsStats["learned"] }}</h2>
+          <p class="learned learn-text">
+            Learned<br />{{ cardsStats["learned"] }}
+          </p>
         </div>
       </div>
       <div class="buttons-main">
-        <a routerLink="learn"> <button class="button-start">Start</button></a>
+        <a routerLink="learn">
+          <button class="button-start">
+            <h3>Start to learn vocabulary</h3>
+          </button></a
+        >
         <button class="button-add">
           <fa-icon [icon]="faPlus" />
         </button>

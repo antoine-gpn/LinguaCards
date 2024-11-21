@@ -4,17 +4,17 @@
       <div class="learn-blocs">
         <div class="learn-bloc">
           <p class="to-learn learn-text">
-            To Learn<br />{{ cardsStats["to learn"] }}
+            To Learn<br />{{ cardsStats && cardsStats["to learn"] }}
           </p>
         </div>
         <div class="learn-bloc">
           <p class="learning learn-text">
-            Learning<br />{{ cardsStats["learning"] }}
+            Learning<br />{{ cardsStats && cardsStats["learning"] }}
           </p>
         </div>
         <div class="learn-bloc">
           <p class="learned learn-text">
-            Learned<br />{{ cardsStats["learned"] }}
+            Learned<br />{{ cardsStats && cardsStats["learned"] }}
           </p>
         </div>
       </div>

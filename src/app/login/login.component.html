@@ -1,10 +1,13 @@
 <div class="login-page">
   <div class="form-bloc">
-    <form>
+    <form [formGroup]="form" (submit)="login()">
       <h1>Welcome to LinguaCards</h1>
-      <input type="text" placeholder="Username" />
-      <input type="text" placeholder="Password" />
-      <button>Login</button>
+      <input type="text" placeholder="Username" formControlName="username" />
+      <input type="text" placeholder="Password" formControlName="password" />
+      <button type="submit">Login</button>
+      @if(loginFailed){
+      <h5 class="error">username or password incorrect</h5>
+      }
     </form>
   </div>
   <div class="image"></div>

@@ -22,6 +22,5 @@ export class HomeComponent implements OnInit {
   async ngOnInit() {
     const cards = await this.cardService.getCardsStats();
     this.cardsStats = cards;
-    console.log(this.cardsStats);
   }
 }

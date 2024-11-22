@@ -1,16 +1,46 @@
 header {
-  text-align: center;
-  height: 100%;
   display: flex;
-  margin: auto;
-  width: 15%;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  font-family: "Feather Bold";
+  color: rgb(201, 26, 26);
+  position: relative;
+}
 
-  h1 {
-    margin: 0;
-  }
+h1 {
+  margin: 0;
+}
 
-  img {
-    margin-bottom: 12px;
+img {
+  max-width: 45px;
+  height: auto;
+}
+
+.header-center {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.header-left {
+  position: absolute;
+  left: 20%;
+}
+
+#country-select {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 45px;
+  font-family: "Feather Bold";
+  margin-right: 20px;
+}
+
+@media (max-width: 800px) {
+  .header-left {
+    display: none;
   }
 }

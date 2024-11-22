@@ -1,14 +1,55 @@
 <div class="login-page">
   <div class="form-bloc">
-    <form [formGroup]="form" (submit)="login()">
-      <h1>Welcome to LinguaCards</h1>
+    <img class="img-logo" src="/logo.png" />
+    <h1>
+      Welcome to
+      <span class="logo"> LinguaCards</span>
+    </h1>
+    <br /><br />
+    <form [formGroup]="loginForm" (submit)="login()">
+      <h3>Login to your account</h3>
       <input type="text" placeholder="Username" formControlName="username" />
-      <input type="text" placeholder="Password" formControlName="password" />
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
       <button type="submit">Login</button>
       @if(loginFailed){
       <h5 class="error">username or password incorrect</h5>
       }
     </form>
+    <br /><br />
+    <h3 class="lined-text">OR</h3>
+    <h3>Create an account</h3>
+    <br />
+
+    <form [formGroup]="registerForm" (submit)="register()">
+      <input type="text" placeholder="Username" formControlName="username" />
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+      <button type="submit">Register</button>
+    </form>
   </div>
-  <div class="image"></div>
+  <div class="image">
+    <br /><br /><br /><br /><br /><br />
+    <h1 class="right-text">The easiest method to learn a new language</h1>
+    <h1 class="right-text">All you need to do is swipe</h1>
+    <div class="img-container">
+      <h3 class="right-text img-text">
+        Swipe left<br /><br />
+        <fa-icon [icon]="left" />
+      </h3>
+      <img class="cards" src="/cards.jpg" />
+      <h3 class="right-text img-text">
+        Swipe right<br /><br />
+        <fa-icon [icon]="right" class="fa-regular" />
+      </h3>
+    </div>
+    <br /><br /><br />
+    <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
+  </div>
 </div>

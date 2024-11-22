@@ -1,4 +1,13 @@
 <header>
-  <img src="/uk.svg" />
-  <h1>LinguaCards</h1>
+  <div class="header-left">
+    <select id="country-select" (change)="changeLanguage($event)">
+      @for(lang of langs; track lang["value"]){
+      <option [value]="lang['value']">{{ lang["text"] }}</option>
+      }
+    </select>
+  </div>
+  <div class="header-center">
+    <img src="/logo.png" />
+    <h1>LinguaCards</h1>
+  </div>
 </header>

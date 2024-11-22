@@ -24,4 +24,5 @@ export const routes: Routes = [
     canActivate: [AuthGuard],
   },
   { path: 'add', component: NewCardComponent, canActivate: [AuthGuard] },
+  { path: 'add/:id', component: NewCardComponent, canActivate: [AuthGuard] },
 ];

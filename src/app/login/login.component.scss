@@ -4,6 +4,16 @@
   text-align: center;
 }
 
+.logo {
+  font-family: "Feather Bold";
+  color: rgb(201, 26, 26);
+}
+
+.img-logo {
+  width: 75px;
+  margin-top: 10px;
+}
+
 .form-bloc {
   width: 40%;
   margin: auto;
@@ -20,14 +30,14 @@ form {
 .image {
   width: 60%;
   height: 100%;
-  background-image: url("/login.jpg");
-  background-size: cover;
-  border-left: 1px solid grey;
+  background-color: rgb(255, 71, 71);
 }
 
 input {
-  border-radius: 15px;
-  border: solid 1px grey;
+  margin: auto;
+  width: 80%;
+  border-radius: 10px;
+  border: solid 1px rgb(65, 65, 65);
   height: 30px;
   margin-bottom: 20px;
   padding-left: 30px;
@@ -35,7 +45,10 @@ input {
 }
 
 button {
-  border-radius: 15px;
+  width: 40%;
+  padding: 10px 10px 25px 10px;
+  margin: auto;
+  border-radius: 7px;
   border: solid 1px grey;
   height: 30px;
   background-color: black;
@@ -45,4 +58,57 @@ button {
 
 .error {
   color: red;
+}
+
+.lined-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.lined-text::before,
+.lined-text::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid black;
+  margin: 0 10px;
+  flex: 0 0 18%;
+}
+
+.cards {
+  max-width: 400px;
+  min-width: 200px;
+}
+
+.right-text {
+  font-family: "Feather Bold";
+  color: white;
+}
+.img-container {
+  margin: auto;
+  display: flex;
+  width: 65%;
+}
+
+fa-icon {
+  font-size: 1.8em;
+}
+
+.img-text {
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .image {
+    display: none;
+  }
+
+  .form-bloc {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
 }

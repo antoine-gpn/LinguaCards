@@ -10,19 +10,24 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { CardService } from '../services/card.service';
 import { Renderer2 } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-game',
   standalone: true,
-  imports: [RouterLink, CardfullComponent, NgClass, FontAwesomeModule],
+  imports: [RouterLink, NgClass, FontAwesomeModule],
   templateUrl: './game.component.html',
   styleUrl: './game.component.scss',
 })
 export class GameComponent implements OnInit {
-  constructor(private cardService: CardService, private renderer: Renderer2) {}
+  constructor(private cardService: CardService, private http: HttpClient) {}
 
   cards!: { [key: string]: any }[];
   currentCard!: { [key: string]: any };
+
+  back = faReply;
+  left = faArrowLeft;
+  right = faArrowRight;
 
   isFlipped: boolean = false;
   startX: number = 0;
@@ -32,17 +37,12 @@ export class GameComponent implements OnInit {
   isBackTextHidden: boolean = true;
   isFrontTextHidden: boolean = false;
 
-  back = faReply;
-  left = faArrowLeft;
-  right = faArrowRight;
-
   async ngOnInit() {
     this.cards = await this.cardService.getAllLearningCards();
     this.currentCard = this.cards[0];
   }
 
   flip() {
-    console.log(this.isFlipped);
     if (!this.isFlipped) {
       this.isFlipped = true;
 
@@ -97,8 +97,11 @@ export class GameComponent implements OnInit {
         frontCard.style.transform = `translateX(${moveX > 0 ? 1000 : -1000}px)`;
         frontCard.style.opacity = '0';
 
+        const flippedSide = moveX < 0 ? 'right' : 'left';
+
         setTimeout(() => {
           this.flipOnNewCard();
+          this.updateScore(flippedSide);
           this.replaceCard();
           frontCard.style.transition = 'none';
 
@@ -133,5 +136,22 @@ export class GameComponent implements OnInit {
     } else {
       return event.touches[0].clientX;
     }
+  }
+
+  async updateScore(flippedSide: string) {
+    const id = this.currentCard['id'];
+    let newScore = this.currentCard['score'];
+
+    if (flippedSide === 'left' && newScore !== 0) {
+      newScore -= 2;
+    } else if (flippedSide === 'right') {
+      newScore += 2;
+    }
+
+    const res = await this.http
+      .put(`http://localhost:8080/cards/updateScore/${id}`, {
+        score: newScore,
+      })
+      .subscribe((res) => {});
   }
 }

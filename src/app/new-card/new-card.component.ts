@@ -1,6 +1,6 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { FormGroup, ReactiveFormsModule, FormControl } from '@angular/forms';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CardService } from '../services/card.service';
 import { HttpClient } from '@angular/common/http';
 
@@ -11,17 +11,35 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './new-card.component.html',
   styleUrl: './new-card.component.scss',
 })
-export class NewCardComponent {
+export class NewCardComponent implements OnInit {
   constructor(
     private router: Router,
     private cardService: CardService,
-    private http: HttpClient
+    private http: HttpClient,
+    private route: ActivatedRoute
   ) {}
 
-  form = new FormGroup({
-    frontText: new FormControl(''),
-    backText: new FormControl(''),
-  });
+  card!: { [key: string]: any };
+  form!: FormGroup;
+
+  async ngOnInit() {
+    this.form = new FormGroup({
+      frontText: new FormControl(''),
+      backText: new FormControl(''),
+    });
+
+    const id = this.route.snapshot.params['id'];
+    if (id) {
+      await this.cardService.getCardById(id).then((response) => {
+        this.card = response;
+      });
+
+      this.form.patchValue({
+        frontText: this.card['front_text'],
+        backText: this.card['back_text'],
+      });
+    }
+  }
 
   async sumbmitForm() {
     const frontText = this.form.value.frontText;

@@ -20,7 +20,7 @@ export class SettingsComponent {
   faGithub = faGithub;
 
   logout() {
-    this.authService.setLoggedIn(false);
+    this.authService.setLoggedIn({});
     this.router.navigate(['']);
   }
 }

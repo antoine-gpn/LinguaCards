@@ -21,10 +21,17 @@ export class AuthService {
   }*/
 
   isLoggedIn(): boolean {
-    return sessionStorage.getItem('isLoggedIn') === 'true';
+    return (
+      sessionStorage.getItem('user') !== null &&
+      sessionStorage.getItem('user') !== 'undefined'
+    );
   }
 
-  setLoggedIn(status: boolean): void {
-    sessionStorage.setItem('isLoggedIn', status ? 'true' : 'false');
+  setLoggedIn(user: { [key: string]: any }): void {
+    sessionStorage.setItem('user', user['id']);
+  }
+
+  getLoggedUser() {
+    return sessionStorage.getItem('user');
   }
 }

@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" [ngClass]="{ hide: isDeleted }">
   <div style="width: 50%">
     <h4>{{ card["front_text"] }}</h4>
     <h4>{{ card["back_text"] }}</h4>
@@ -6,15 +6,24 @@
   <div style="width: 25%">
     <h4 style="margin: auto">Learning</h4>
   </div>
-  <div class="card-buttons-container">
-    <button class="button-delete">
-      <fa-icon [icon]="faRotate" />
-    </button>
-    <button class="button-delete">
-      <fa-icon [icon]="faPenToSquare" />
-    </button>
-    <button class="button-delete">
-      <fa-icon [icon]="faXmark" />
-    </button>
+  <div>
+    <div class="kebab-button" (click)="toggleMenu()">
+      <button class="kebab-icon">⋮</button>
+      @if(menuVisible){
+      <div class="menu">
+        <ul>
+          <li (click)="resetCard(card['id'])">
+            Reload <fa-icon [icon]="faRotate" />
+          </li>
+          <li (click)="updateCard(card['id'])">
+            Modify <fa-icon [icon]="faPenToSquare" />
+          </li>
+          <li (click)="deleteCard(card['id'])">
+            Delete <fa-icon [icon]="faXmark" />
+          </li>
+        </ul>
+      </div>
+      }
+    </div>
   </div>
 </div>

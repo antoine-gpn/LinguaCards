@@ -9,7 +9,7 @@
   margin: auto;
   margin-top: 5vh;
   border-radius: 10px;
-  background-color: #cee0e7;
+  background-color: #F5E5E5;
   border: solid 1px grey;
   box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
@@ -35,7 +35,7 @@ input {
 
 input:focus {
   outline: none;
-  background-color: #cee0e7;
+  background-color: rgba($color: #000000, $alpha: 0);
 }
 
 fieldset:focus-within {
@@ -51,4 +51,8 @@ fieldset:focus-within {
 
 .fieldset {
   margin-bottom: 30px;
+}
+
+.error {
+  color: red;
 }

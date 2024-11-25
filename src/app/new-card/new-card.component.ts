@@ -21,6 +21,7 @@ export class NewCardComponent implements OnInit {
 
   card!: { [key: string]: any };
   form!: FormGroup;
+  failedAdd : boolean = false;
 
   async ngOnInit() {
     this.form = new FormGroup({
@@ -45,6 +46,7 @@ export class NewCardComponent implements OnInit {
     const frontText = this.form.value.frontText;
     const backText = this.form.value.backText;
 
+    if(frontText !== "" && backText !== ""){
     const res = await this.http
       .post(`http://localhost:8080/cards/add`, {
         user_id: 1,
@@ -56,5 +58,9 @@ export class NewCardComponent implements OnInit {
         console.log(res);
         this.router.navigate(['']);
       });
+  }else{
+    this.failedAdd = true;
   }
+}
+  
 }

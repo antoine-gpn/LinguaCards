@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { CardService } from '../services/card.service';
 import { CardComponent } from '../card/card.component';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-cardslist',
   standalone: true,
-  imports: [CardComponent],
+  imports: [CardComponent, RouterLink],
   templateUrl: './cardslist.component.html',
   styleUrl: './cardslist.component.scss',
 })

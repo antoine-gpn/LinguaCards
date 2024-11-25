@@ -17,10 +17,10 @@ export class AppComponent {
 
   constructor(private router: Router) {
     this.router.events.subscribe(() => {
-      this.showHeader = this.router.url !== '/login';
+      this.showHeader = this.router.url !== '/login' && this.router.url !== '/register';
 
       this.showFooter =
-        this.router.url !== '/login' && this.router.url !== '/learn';
+        this.router.url !== '/login' && this.router.url !== '/learn' && this.router.url !== '/register';
     });
   }
 }

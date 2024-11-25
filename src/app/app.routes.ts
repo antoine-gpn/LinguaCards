@@ -7,10 +7,12 @@ import { GameComponent } from './game/game.component';
 import { RessourceComponent } from './ressource/ressource.component';
 import { NewCardComponent } from './new-card/new-card.component';
 import { AuthGuard } from './services/auth.guard';
+import { RegisterComponent } from './register/register.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent },
   {
     path: 'ressources',
     component: RessourcepageComponent,

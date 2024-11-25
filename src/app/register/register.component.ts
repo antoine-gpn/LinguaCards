@@ -10,13 +10,13 @@ import {
 } from '@fortawesome/free-regular-svg-icons';
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-register',
   standalone: true,
   imports: [ReactiveFormsModule, FontAwesomeModule, RouterLink],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.scss',
+  templateUrl: './register.component.html',
+  styleUrl: './register.component.scss'
 })
-export class LoginComponent {
+export class RegisterComponent {
   baseUrl = 'http://localhost:8080/auth';
   loginFailed: boolean = false;
 
@@ -29,39 +29,18 @@ export class LoginComponent {
     private http: HttpClient
   ) {}
 
-  loginForm = new FormGroup({
-    username: new FormControl(''),
-    password: new FormControl(''),
-  });
 
   registerForm = new FormGroup({
     username: new FormControl(''),
     password: new FormControl(''),
   });
 
-  login() {
-    const params = new HttpParams()
-      .set('username', this.loginForm.value.username || '')
-      .set('password', this.loginForm.value.password || '');
-
-    this.http
-      .post(`${this.baseUrl}/login`, null, { params })
-      .subscribe((user) => {
-        if (user) {
-          this.authService.setLoggedIn(user);
-          sessionStorage.setItem('lang', 'en');
-          this.router.navigate(['']);
-        } else {
-          this.loginFailed = true;
-        }
-      });
-  }
-
   async register() {
     const username = this.registerForm.value.username;
-    const password = this.registerForm.value.password;
+    const password = this.registerForm.value.password ?? '';
+    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-    if(username !== "" && password !== ""){
+    if(username !== "" && password !== "" && regex.test(password)){
       const res = await this.http
       .post(`${this.baseUrl}/register`, {
         username: username,
@@ -72,7 +51,8 @@ export class LoginComponent {
         sessionStorage.setItem('lang', 'en');
         this.router.navigate(['']);
       });
+    }else{
+      this.loginFailed = true;
     }
   }
-    
 }

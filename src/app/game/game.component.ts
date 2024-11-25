@@ -24,6 +24,7 @@ export class GameComponent implements OnInit {
 
   cards!: { [key: string]: any }[];
   currentCard!: { [key: string]: any };
+  finished: boolean = false;
 
   back = faReply;
   left = faArrowLeft;
@@ -43,7 +44,7 @@ export class GameComponent implements OnInit {
   }
 
   flip() {
-    if (!this.isFlipped) {
+    if (!this.isFlipped && !this.finished) {
       this.isFlipped = true;
 
       this.isBackTextHidden = true;
@@ -127,6 +128,7 @@ export class GameComponent implements OnInit {
       this.currentCard = this.cards[0];
     } else {
       this.currentCard = {};
+      this.finished = true;
     }
   }
 

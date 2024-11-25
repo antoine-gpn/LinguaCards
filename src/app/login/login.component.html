@@ -5,7 +5,7 @@
       Welcome to
       <span class="logo"> LinguaCards</span>
     </h1>
-    <br /><br />
+    
     <form [formGroup]="loginForm" (submit)="login()">
       <h3>Login to your account</h3>
       <input type="text" placeholder="Username" formControlName="username" />
@@ -19,23 +19,12 @@
       <h5 class="error">username or password incorrect</h5>
       }
     </form>
-    <br /><br />
+    
     <h3 class="lined-text">OR</h3>
-    <h3>Create an account</h3>
-    <br />
-
-    <form [formGroup]="registerForm" (submit)="register()">
-      <input type="text" placeholder="Username" formControlName="username" />
-      <input
-        type="password"
-        placeholder="Password"
-        formControlName="password"
-      />
-      <button type="submit">Register</button>
-    </form>
+    <button class="redirect"><a routerLink="/register"><h3>Create an account</h3></a></button>
   </div>
   <div class="image">
-    <br /><br /><br /><br /><br /><br />
+    
     <h1 class="right-text">The easiest method to learn a new language</h1>
     <h1 class="right-text">All you need to do is swipe</h1>
     <div class="img-container">
@@ -49,7 +38,6 @@
         <fa-icon [icon]="right" class="fa-regular" />
       </h3>
     </div>
-    <br /><br /><br />
     <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
   </div>
 </div>

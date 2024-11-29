@@ -1,5 +1,20 @@
 <div class="newcard-bloc">
   <form [formGroup]="form" (submit)="sumbmitForm()">
+    @if(image){
+    <img
+      class="api-img"
+      [src]="'data:image/png;base64,' + image"
+      alt="Generated Image"
+    />
+    } @else{ @if(card['image']){
+    <img
+      class="api-img"
+      [src]="'data:image/png;base64,' + card['image']"
+      alt="Generated Image"
+    />
+    }@else {
+    <img class="api-img" src="/no-image.png" alt="Generated Image" />
+    } }
     <div class="fieldset">
       <fieldset>
         <legend>Front Text</legend>
@@ -8,6 +23,7 @@
           placeholder="Enter a word"
           name="frontText"
           formControlName="frontText"
+          (change)="getImage()"
         />
       </fieldset>
     </div>
@@ -27,6 +43,6 @@
     </div>
   </form>
   @if(failedAdd){
-    <h5 class="error">The fields cannot be empty</h5>
-    }
+  <h5 class="error">The fields cannot be empty</h5>
+  }
 </div>

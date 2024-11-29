@@ -47,7 +47,7 @@
 .front-text,
 .back-text {
   text-align: center;
-  margin-top: 50%;
+  margin-top: 10%;
   transform: rotateY(0deg);
 }
 
@@ -108,4 +108,20 @@
 .swipe-right {
   color: red;
   margin-top: 0;
+}
+
+.card-img {
+  border: solid 1px rgb(105, 105, 105);
+  width: 35%;
+  border-radius: 10px;
+  margin-top: 20%;
+  margin-left: 30%;
+}
+
+.bottom-text {
+  margin-top: 20%;
+}
+
+.no-cards {
+  margin-top: 50%;
 }

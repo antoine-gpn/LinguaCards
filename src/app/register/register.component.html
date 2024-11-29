@@ -1,46 +1,50 @@
 <div class="login-page">
-    <div class="form-bloc">
-      <img class="img-logo" src="/logo.png" />
-      <h1>
-        Welcome to
-        <span class="logo"> LinguaCards</span>
-      </h1>
-  
-      <form [formGroup]="registerForm" (submit)="register()">
-        <h3>Create an account</h3>
-        <input type="text" placeholder="Username" formControlName="username" />
-        <input
-          type="password"
-          placeholder="Password"
-          formControlName="password"
-        />
-        <p class="password-info">The password must contain at least 8 characters (with lowercase/uppercase letters and numbers)</p>
-        <button type="submit">Register</button>
-        @if(loginFailed){
-            <h5 class="error">The password does not meet conditions</h5>
-        }
-        
-      </form>
-      <h3 class="lined-text">OR</h3>
-      <button class="redirect"><a routerLink="/login"><h3>Login with your account</h3></a></button>
-      
-    </div>
-    <div class="image">
-      
-      <h1 class="right-text">The easiest method to learn a new language</h1>
-      <h1 class="right-text">All you need to do is swipe</h1>
-      <div class="img-container">
-        <h3 class="right-text img-text">
-          Swipe left<br /><br />
-          <fa-icon [icon]="left" />
-        </h3>
-        <img class="cards" src="/cards.jpg" />
-        <h3 class="right-text img-text">
-          Swipe right<br /><br />
-          <fa-icon [icon]="right" class="fa-regular" />
-        </h3>
-      </div>
-      <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
-    </div>
+  <div class="form-bloc">
+    <img class="img-logo" src="/logo.png" />
+    <h1>
+      Welcome to
+      <span class="logo"> LinguaCards</span>
+    </h1>
+
+    <form [formGroup]="registerForm" (submit)="register()">
+      <h3>Create an account</h3>
+      <fieldset>
+        <legend><b>Username</b></legend>
+        <input type="text" formControlName="username" />
+      </fieldset>
+      <fieldset style="margin-bottom: 5px">
+        <legend><b>Password</b></legend>
+        <input type="password" formControlName="password" />
+      </fieldset>
+
+      <p class="password-info">
+        The password must contain at least 8 characters (with
+        lowercase/uppercase letters and numbers)
+      </p>
+      <button type="submit">Register</button>
+      @if(loginFailed){
+      <h5 class="error">The password does not meet conditions</h5>
+      }
+    </form>
+    <h3 class="lined-text">OR</h3>
+    <button class="redirect">
+      <a routerLink="/login"><h3>Login with your account</h3></a>
+    </button>
   </div>
-  
+  <div class="image">
+    <h1 class="right-text">The easiest method to learn a new language</h1>
+    <h1 class="right-text">All you need to do is swipe</h1>
+    <div class="img-container">
+      <h3 class="right-text img-text">
+        Swipe left<br /><br />
+        <fa-icon [icon]="left" />
+      </h3>
+      <img class="cards" src="/cards.jpg" />
+      <h3 class="right-text img-text">
+        Swipe right<br /><br />
+        <fa-icon [icon]="right" class="fa-regular" />
+      </h3>
+    </div>
+    <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
+  </div>
+</div>

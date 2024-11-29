@@ -1,8 +1,10 @@
 <div class="settings-bloc">
-  <h3>Username</h3>
+  @if(user){
+  <h3>{{ user["username"] }}</h3>
+  }
   <div class="settings-buttons">
     <button (click)="logout()">Logout</button>
-    <button>Delete my account</button>
+    <button (click)="deleteAccount()">Delete my account</button>
   </div>
   <h3>App made by ©Antoine Grappin</h3>
   <div class="socials-bloc">

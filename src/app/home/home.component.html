@@ -1,19 +1,70 @@
-<div class="home" [ngStyle]="backgroundStyle">
+<div
+  class="home"
+  [ngClass]="{
+  'uk-bg': lang == 'en',
+  'fr-bg': lang == 'fr',
+}"
+>
+  <div class="add-bloc">
+    <div class="newcard-bloc">
+      <h2 style="margin-bottom: 50px">Add a new card</h2>
+      <form [formGroup]="form" (submit)="sumbmitForm()">
+        @if(image){
+        <img
+          class="api-img"
+          [src]="'data:image/png;base64,' + image"
+          alt="Generated Image"
+        />
+        } @else{
+        <img class="api-img" src="/no-image.png" alt="Generated Image" />
+        }
+        <div class="fieldset">
+          <fieldset>
+            <legend>Front Text</legend>
+            <input
+              type="text"
+              placeholder="Enter a word"
+              name="frontText"
+              formControlName="frontText"
+              (change)="getImage()"
+            />
+          </fieldset>
+        </div>
+        <div class="fieldset">
+          <fieldset>
+            <legend>Back Text</legend>
+            <input
+              type="text"
+              placeholder="Enter a word"
+              name="backText"
+              formControlName="backText"
+            />
+          </fieldset>
+        </div>
+        <div>
+          <button type="submit" class="button-save">Save</button>
+        </div>
+      </form>
+      @if(failedAdd){
+      <h5 class="error">The fields cannot be empty</h5>
+      }
+    </div>
+  </div>
   <div class="home-main">
     <div class="main-bloc">
       <div class="learn-blocs">
-        <div class="learn-bloc">
-          <p class="to-learn learn-text">
+        <div class="learn-bloc to-learn">
+          <p class="learn-text">
             To Learn<br />{{ cardsStats && cardsStats["to learn"] }}
           </p>
         </div>
-        <div class="learn-bloc">
-          <p class="learning learn-text">
+        <div class="learn-bloc learning">
+          <p class="learn-text">
             Learning<br />{{ cardsStats && cardsStats["learning"] }}
           </p>
         </div>
-        <div class="learn-bloc">
-          <p class="learned learn-text">
+        <div class="learn-bloc learned">
+          <p class="learn-text">
             Learned<br />{{ cardsStats && cardsStats["learned"] }}
           </p>
         </div>
@@ -21,11 +72,11 @@
       <div class="buttons-main">
         <a routerLink="learn">
           <button class="button-start">
-            <h3>Start to Play !</h3>
+            <h3>Learn</h3>
           </button></a
         >
         <a routerLink="add">
-          <button class="button-add"><h3>Add a card</h3></button>
+          <button class="button-add"><h3>+</h3></button>
         </a>
       </div>
     </div>

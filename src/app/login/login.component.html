@@ -5,39 +5,45 @@
       Welcome to
       <span class="logo"> LinguaCards</span>
     </h1>
-    
+
     <form [formGroup]="loginForm" (submit)="login()">
       <h3>Login to your account</h3>
-      <input type="text" placeholder="Username" formControlName="username" />
-      <input
-        type="password"
-        placeholder="Password"
-        formControlName="password"
-      />
+      <fieldset>
+        <legend><b>Username</b></legend>
+        <input type="text" formControlName="username" />
+      </fieldset>
+      <fieldset>
+        <legend><b>Password</b></legend>
+        <input type="password" formControlName="password" />
+      </fieldset>
+
       <button type="submit">Login</button>
       @if(loginFailed){
       <h5 class="error">username or password incorrect</h5>
       }
     </form>
-    
+
     <h3 class="lined-text">OR</h3>
-    <button class="redirect"><a routerLink="/register"><h3>Create an account</h3></a></button>
+    <button class="redirect">
+      <a routerLink="/register"><h3>Create an account</h3></a>
+    </button>
   </div>
   <div class="image">
-    
-    <h1 class="right-text">The easiest method to learn a new language</h1>
-    <h1 class="right-text">All you need to do is swipe</h1>
-    <div class="img-container">
-      <h3 class="right-text img-text">
-        Swipe left<br /><br />
-        <fa-icon [icon]="left" />
-      </h3>
-      <img class="cards" src="/cards.jpg" />
-      <h3 class="right-text img-text">
-        Swipe right<br /><br />
-        <fa-icon [icon]="right" class="fa-regular" />
-      </h3>
+    <div class="left-content">
+      <h1 class="right-text">The easiest method to learn a new language</h1>
+      <h1 class="right-text">All you need to do is swipe</h1>
+      <div class="img-container">
+        <h3 class="right-text img-text">
+          Swipe left<br /><br />
+          <fa-icon [icon]="left" />
+        </h3>
+        <img class="cards" src="/cards.jpg" />
+        <h3 class="right-text img-text">
+          Swipe right<br /><br />
+          <fa-icon [icon]="right" class="fa-regular" />
+        </h3>
+      </div>
+      <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
     </div>
-    <h2 class="right-text">ENGLISH - FRENCH - SPANISH - ITALIAN</h2>
   </div>
 </div>

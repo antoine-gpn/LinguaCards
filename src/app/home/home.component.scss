@@ -1,42 +1,58 @@
 .home {
   width: 100%;
   display: flex;
+  gap: 3%;
   height: 100%;
+  justify-content: center;
+}
+
+.add-bloc {
+  width: 30%;
+  //border: solid 1px black;
 }
 
 .home-main {
-  width: 60%;
+  width: 30%;
+  //border: solid 1px black;
 }
 
 .home-cards {
-  width: 40%;
+  width: 30%;
+  //border: solid 1px black;
 }
 
 .main-bloc {
-  border-radius: 20px;
-  width: 80%;
+  border-radius: 30px;
   height: 80%;
-  background-color: #f5e5e5;
+  background-color: white;
   margin: auto;
   margin-top: 50px;
   padding-top: 30px;
   text-align: center;
   box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+  border: solid 1px grey;
 }
 
 .learn-blocs {
   justify-content: space-around;
   display: flex;
-  width: 70%;
+  flex-direction: column;
+  width: 50%;
   margin: auto;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .learn-bloc {
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   text-align: center;
-  border: solid 1px grey;
-  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+  border: solid 1px rgb(167, 167, 167);
+  text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
+    -1px -1px 0 black, 1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
+    -1px 1px 1px black;
+  color: white;
+  min-height: 95px;
 }
 
 .learn-text {
@@ -46,51 +62,161 @@
 
 .button-start {
   border-radius: 20px;
-  width: 70%;
+  background-color: #a73449;
+  color: white;
+  width: 45%;
   border: solid 1px grey;
-  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
 }
 
 .button-add {
-  border-radius: 20px;
+  border-radius: 50px;
   padding: 0 2px 0 2px;
-  min-width: 20%;
+  background-color: #a73449;
+  color: white;
+  width: 50px;
   margin-left: 5%;
   border: solid 1px grey;
-  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+  justify-content: center;
+  align-items: center;
 }
 
 .buttons-main {
   margin: auto;
-  margin-top: 300px;
-  width: 75%;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 70%;
 }
 
 .to-learn {
-  color: rgb(218, 76, 76);
+  background-color: rgb(252, 129, 129);
 }
 
 .learning {
-  color: rgb(201, 138, 22);
+  background-color: rgb(240, 190, 96);
 }
 
 .learned {
-  color: rgb(60, 182, 60);
+  background-color: rgb(146, 255, 146);
 }
 
-@media (max-width: 900px) {
+.newcard-bloc {
+  text-align: center;
+  width: 100%;
+  height: 85%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 30px;
+  background-color: white;
+  border: solid 1px grey;
+  box-shadow: 1px 1px 5px 1px rgba(61, 61, 61, 0.856);
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  border: solid 1px black;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input {
+  background-color: rgba($color: #000000, $alpha: 0);
+  border: none;
+  width: 100%;
+  height: 25px;
+  padding-left: 15px;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba($color: #000000, $alpha: 0);
+}
+
+fieldset:focus-within {
+  border: solid 2px black;
+}
+
+.button-save {
+  width: 20%;
+  padding: 12px;
+  border-radius: 15px;
+  border: solid 1px gray;
+  color: white;
+  font-weight: bold;
+  background-color: #a73449;
+  margin-bottom: 20px;
+}
+
+.fieldset {
+  margin-bottom: 30px;
+}
+
+.error {
+  color: red;
+}
+
+.api-img {
+  border: solid 1px rgb(105, 105, 105);
+  width: 35%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.uk-bg {
+  background: linear-gradient(
+      rgba(115, 119, 119, 0.4),
+      rgba(115, 119, 119, 0.4)
+    ),
+    url("/uk-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fr-bg {
+  background: linear-gradient(
+      rgba(115, 119, 119, 0.4),
+      rgba(115, 119, 119, 0.4)
+    ),
+    url("/french-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1000px) {
+  .learn-blocs {
+    flex-direction: column;
+    width: 60%;
+  }
+}
+
+@media (max-width: 800px) {
   .home {
     flex-direction: column;
-    background: white;
+    background: #a73449;
   }
 
   .home-main {
-    width: 100%;
+    width: 80%;
+    margin: auto;
   }
 
   .home-cards {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 100vh;
+  }
+
+  .add-bloc {
+    margin: auto;
+    width: 80%;
   }
 
   .learn-blocs {

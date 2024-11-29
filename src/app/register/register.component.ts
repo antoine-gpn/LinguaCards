@@ -14,7 +14,7 @@ import {
   standalone: true,
   imports: [ReactiveFormsModule, FontAwesomeModule, RouterLink],
   templateUrl: './register.component.html',
-  styleUrl: './register.component.scss'
+  styleUrl: './register.component.scss',
 })
 export class RegisterComponent {
   baseUrl = 'http://localhost:8080/auth';
@@ -29,7 +29,6 @@ export class RegisterComponent {
     private http: HttpClient
   ) {}
 
-
   registerForm = new FormGroup({
     username: new FormControl(''),
     password: new FormControl(''),
@@ -40,18 +39,21 @@ export class RegisterComponent {
     const password = this.registerForm.value.password ?? '';
     const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-    if(username !== "" && password !== "" && regex.test(password)){
+    if (username !== '' && password !== '' && regex.test(password)) {
       const res = await this.http
-      .post(`${this.baseUrl}/register`, {
-        username: username,
-        password: password,
-      })
-      .subscribe((user) => {
-        this.authService.setLoggedIn(user);
-        sessionStorage.setItem('lang', 'en');
-        this.router.navigate(['']);
-      });
-    }else{
+        .post(`${this.baseUrl}/register`, {
+          username: username,
+          password: password,
+        })
+        .subscribe((user: { [key: string]: any }) => {
+          this.authService.setLoggedIn(user);
+          sessionStorage.setItem('lang', 'en');
+          fetch(`http://localhost:8080/cards/addBeginCards/${user['id']}`, {
+            method: 'POST',
+          });
+          this.router.navigate(['']);
+        });
+    } else {
       this.loginFailed = true;
     }
   }

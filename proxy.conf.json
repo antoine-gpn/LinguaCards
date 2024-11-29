@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://api.freepik.com",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}

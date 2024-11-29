@@ -2,8 +2,9 @@
   width: 92%;
   margin: auto;
   margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 10px;
-  background-color: rgb(217, 218, 223);
+  //background-color: rgb(217, 218, 223);
   border: solid 1px rgb(80, 80, 80);
   padding: 10px;
   display: flex;
@@ -78,4 +79,33 @@ fa-icon {
 
 .hide {
   display: none;
+}
+
+.red {
+  background-color: #fdb6b6;
+}
+
+.yellow {
+  background-color: #ffdfa4;
+}
+
+.green {
+  background-color: #b0ffb0;
+}
+
+.img {
+  border: solid 1px black;
+  min-width: 20px;
+  max-width: 50px;
+  border-radius: 20%;
+}
+
+.img-container {
+  width: 10%;
+}
+
+@media (max-width: 1200px) {
+  .img-container {
+    display: none;
+  }
 }

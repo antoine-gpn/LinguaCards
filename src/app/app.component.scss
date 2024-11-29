@@ -19,10 +19,18 @@ app-header {
 
 .footer {
   background-color: rgb(245, 229, 229);
+  //background-color: red;
   text-align: center;
   height: 5.5vh;
   padding-top: 10px;
   border-top: solid 2px rgba(128, 128, 128, 0.548);
+}
+
+@media (max-width: 1000px) {
+  .footer {
+    //background-color: blue;
+    height: 8vh;
+  }
 }
 
 @media (max-width: 800px) {

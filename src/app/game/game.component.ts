@@ -78,7 +78,8 @@ export class GameComponent implements OnInit {
 
     const frontCard = document.querySelector('.front-card') as HTMLElement;
     if (frontCard) {
-      frontCard.style.transform = `translateX(${moveX}px)`;
+      const rotation = moveX * 0.2;
+      frontCard.style.transform = `translateX(${moveX}px) rotate(${rotation}deg)`;
     }
   }
 
@@ -95,7 +96,10 @@ export class GameComponent implements OnInit {
         this.isTransitioning = true;
 
         frontCard.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
-        frontCard.style.transform = `translateX(${moveX > 0 ? 1000 : -1000}px)`;
+        const finalRotation = moveX > 0 ? 15 : -15;
+        frontCard.style.transform = `translateX(${
+          moveX > 0 ? 1000 : -1000
+        }px) rotate(${finalRotation}deg)`;
         frontCard.style.opacity = '0';
 
         const flippedSide = moveX < 0 ? 'right' : 'left';
@@ -106,14 +110,14 @@ export class GameComponent implements OnInit {
           this.replaceCard();
           frontCard.style.transition = 'none';
 
-          frontCard.style.transform = 'translateX(0)';
+          frontCard.style.transform = 'translateX(0) rotate(0)';
           frontCard.style.opacity = '1';
 
           this.isTransitioning = false;
         }, 300);
       } else {
         frontCard.style.transition = 'transform 0.3s ease';
-        frontCard.style.transform = 'translateX(0)';
+        frontCard.style.transform = 'translateX(0) rotate(0)';
       }
     }
 

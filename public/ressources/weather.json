@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 251,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "sun",
+    "back_text": "soleil"
+  },
+  {
+    "_id": 252,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "rain",
+    "back_text": "pluie"
+  },
+  {
+    "_id": 253,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "snow",
+    "back_text": "neige"
+  },
+  {
+    "_id": 254,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "wind",
+    "back_text": "vent"
+  },
+  {
+    "_id": 255,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "storm",
+    "back_text": "tempête"
+  },
+  {
+    "_id": 256,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "cloud",
+    "back_text": "nuage"
+  },
+  {
+    "_id": 257,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "fog",
+    "back_text": "brouillard"
+  },
+  {
+    "_id": 258,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "hail",
+    "back_text": "grêle"
+  },
+  {
+    "_id": 259,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "thunder",
+    "back_text": "tonnerre"
+  },
+  {
+    "_id": 260,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "lightning",
+    "back_text": "éclair"
+  },
+  {
+    "_id": 261,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "temperature",
+    "back_text": "température"
+  },
+  {
+    "_id": 262,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "humidity",
+    "back_text": "humidité"
+  },
+  {
+    "_id": 263,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "dew",
+    "back_text": "rosée"
+  },
+  {
+    "_id": 264,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "frost",
+    "back_text": "gel"
+  },
+  {
+    "_id": 265,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "blizzard",
+    "back_text": "blizzard"
+  },
+  {
+    "_id": 266,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "drought",
+    "back_text": "sécheresse"
+  },
+  {
+    "_id": 267,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "tornado",
+    "back_text": "tornade"
+  },
+  {
+    "_id": 268,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "hurricane",
+    "back_text": "ouragan"
+  },
+  {
+    "_id": 269,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "cyclone",
+    "back_text": "cyclone"
+  },
+  {
+    "_id": 270,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "mist",
+    "back_text": "brume"
+  },
+  {
+    "_id": 271,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "drizzle",
+    "back_text": "bruine"
+  },
+  {
+    "_id": 272,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "sunshine",
+    "back_text": "ensoleillement"
+  },
+  {
+    "_id": 273,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "breeze",
+    "back_text": "brise"
+  },
+  {
+    "_id": 274,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "gust",
+    "back_text": "rafale"
+  },
+  {
+    "_id": 275,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "gale",
+    "back_text": "coup de vent"
+  },
+  {
+    "_id": 276,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "ice",
+    "back_text": "glace"
+  },
+  {
+    "_id": 277,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "cold",
+    "back_text": "froid"
+  },
+  {
+    "_id": 278,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "hot",
+    "back_text": "chaud"
+  },
+  {
+    "_id": 279,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "warm",
+    "back_text": "tiède"
+  },
+  {
+    "_id": 280,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "cool",
+    "back_text": "frais"
+  },
+  {
+    "_id": 281,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "heatwave",
+    "back_text": "canicule"
+  },
+  {
+    "_id": 282,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "season",
+    "back_text": "saison"
+  },
+  {
+    "_id": 283,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "climate",
+    "back_text": "climat"
+  },
+  {
+    "_id": 284,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "weather forecast",
+    "back_text": "prévisions météo"
+  },
+  {
+    "_id": 285,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "rainbow",
+    "back_text": "arc-en-ciel"
+  },
+  {
+    "_id": 286,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "thunderstorm",
+    "back_text": "orage"
+  },
+  {
+    "_id": 287,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "UV rays",
+    "back_text": "rayons UV"
+  },
+  {
+    "_id": 288,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "atmosphere",
+    "back_text": "atmosphère"
+  },
+  {
+    "_id": 289,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "barometer",
+    "back_text": "baromètre"
+  },
+  {
+    "_id": 290,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "thermometer",
+    "back_text": "thermomètre"
+  },
+  {
+    "_id": 291,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "pressure",
+    "back_text": "pression"
+  },
+  {
+    "_id": 292,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "precipitation",
+    "back_text": "précipitation"
+  },
+  {
+    "_id": 293,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "evaporation",
+    "back_text": "évaporation"
+  },
+  {
+    "_id": 294,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "humidity level",
+    "back_text": "taux d'humidité"
+  },
+  {
+    "_id": 295,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "climate change",
+    "back_text": "changement climatique"
+  },
+  {
+    "_id": 296,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "global warming",
+    "back_text": "réchauffement climatique"
+  },
+  {
+    "_id": 297,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "monsoon",
+    "back_text": "mousson"
+  },
+  {
+    "_id": 298,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "typhoon",
+    "back_text": "typhon"
+  },
+  {
+    "_id": 299,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "weather station",
+    "back_text": "station météo"
+  },
+  {
+    "_id": 300,
+    "ressource_pack_id": 6,
+    "lang": "en",
+    "front_text": "weather station",
+    "back_text": "station météo"
+  }
+]

@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 151,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "soccer",
+    "back_text": "football"
+  },
+  {
+    "_id": 152,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "basketball",
+    "back_text": "basket-ball"
+  },
+  {
+    "_id": 153,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "tennis",
+    "back_text": "tennis"
+  },
+  {
+    "_id": 154,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "swimming",
+    "back_text": "natation"
+  },
+  {
+    "_id": 155,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "running",
+    "back_text": "course à pied"
+  },
+  {
+    "_id": 156,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "cycling",
+    "back_text": "cyclisme"
+  },
+  {
+    "_id": 157,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "hiking",
+    "back_text": "randonnée"
+  },
+  {
+    "_id": 158,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "yoga",
+    "back_text": "yoga"
+  },
+  {
+    "_id": 159,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "gymnastics",
+    "back_text": "gymnastique"
+  },
+  {
+    "_id": 160,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "skiing",
+    "back_text": "ski"
+  },
+  {
+    "_id": 161,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "snowboarding",
+    "back_text": "snowboard"
+  },
+  {
+    "_id": 162,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "fishing",
+    "back_text": "pêche"
+  },
+  {
+    "_id": 163,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "surfing",
+    "back_text": "surf"
+  },
+  {
+    "_id": 164,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "boxing",
+    "back_text": "boxe"
+  },
+  {
+    "_id": 165,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "karate",
+    "back_text": "karaté"
+  },
+  {
+    "_id": 166,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "dancing",
+    "back_text": "danse"
+  },
+  {
+    "_id": 167,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "skating",
+    "back_text": "patinage"
+  },
+  {
+    "_id": 168,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "climbing",
+    "back_text": "escalade"
+  },
+  {
+    "_id": 169,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "horse riding",
+    "back_text": "équitation"
+  },
+  {
+    "_id": 170,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "archery",
+    "back_text": "tir à l'arc"
+  },
+  {
+    "_id": 171,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "badminton",
+    "back_text": "badminton"
+  },
+  {
+    "_id": 172,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "volleyball",
+    "back_text": "volley-ball"
+  },
+  {
+    "_id": 173,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "table tennis",
+    "back_text": "tennis de table"
+  },
+  {
+    "_id": 174,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "rowing",
+    "back_text": "aviron"
+  },
+  {
+    "_id": 175,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "canoeing",
+    "back_text": "canoë"
+  },
+  {
+    "_id": 176,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "kayaking",
+    "back_text": "kayak"
+  },
+  {
+    "_id": 177,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "golf",
+    "back_text": "golf"
+  },
+  {
+    "_id": 178,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "hunting",
+    "back_text": "chasse"
+  },
+  {
+    "_id": 179,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "gardening",
+    "back_text": "jardinage"
+  },
+  {
+    "_id": 180,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "cooking",
+    "back_text": "cuisine"
+  },
+  {
+    "_id": 181,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "baking",
+    "back_text": "pâtisserie"
+  },
+  {
+    "_id": 182,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "painting",
+    "back_text": "peinture"
+  },
+  {
+    "_id": 183,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "drawing",
+    "back_text": "dessin"
+  },
+  {
+    "_id": 184,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "photography",
+    "back_text": "photographie"
+  },
+  {
+    "_id": 185,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "knitting",
+    "back_text": "tricot"
+  },
+  {
+    "_id": 186,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "sewing",
+    "back_text": "couture"
+  },
+  {
+    "_id": 187,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "reading",
+    "back_text": "lecture"
+  },
+  {
+    "_id": 188,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "writing",
+    "back_text": "écriture"
+  },
+  {
+    "_id": 189,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "gaming",
+    "back_text": "jeu vidéo"
+  },
+  {
+    "_id": 190,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "jogging",
+    "back_text": "footing"
+  },
+  {
+    "_id": 191,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "skateboarding",
+    "back_text": "skateboard"
+  },
+  {
+    "_id": 192,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "watching movies",
+    "back_text": "regarder des films"
+  },
+  {
+    "_id": 193,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "playing cards",
+    "back_text": "jouer aux cartes"
+  },
+  {
+    "_id": 194,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "chess",
+    "back_text": "échecs"
+  },
+  {
+    "_id": 195,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "board games",
+    "back_text": "jeux de société"
+  },
+  {
+    "_id": 196,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "camping",
+    "back_text": "camping"
+  },
+  {
+    "_id": 197,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "collecting",
+    "back_text": "collection"
+  },
+  {
+    "_id": 198,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "hiking boots",
+    "back_text": "chaussures de randonnée"
+  },
+  {
+    "_id": 199,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "crafting",
+    "back_text": "artisanat"
+  },
+  {
+    "_id": 200,
+    "ressource_pack_id": 4,
+    "lang": "en",
+    "front_text": "crafting",
+    "back_text": "artisanat"
+  }
+]

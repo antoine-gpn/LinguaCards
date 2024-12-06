@@ -4,10 +4,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { CardService } from '../services/card.service';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
-import { NgClass, NgStyle } from '@angular/common';
-import { NewCardComponent } from '../new-card/new-card.component';
+import { NgClass } from '@angular/common';
 import { ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
+import { AuthService } from '../services/auth.service';
 
 @Component({
   selector: 'app-home',
@@ -16,8 +16,6 @@ import { HttpClient } from '@angular/common/http';
     CardslistComponent,
     FontAwesomeModule,
     RouterLink,
-    NgStyle,
-    NewCardComponent,
     ReactiveFormsModule,
     NgClass,
   ],
@@ -29,7 +27,8 @@ export class HomeComponent implements OnInit {
     private cardService: CardService,
     private http: HttpClient,
     private router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private authService: AuthService
   ) {}
   backgroundStyle: any = {};
 
@@ -46,7 +45,7 @@ export class HomeComponent implements OnInit {
   user_id: string = '';
 
   async ngOnInit() {
-    this.user_id = sessionStorage.getItem('user') || '';
+    this.user_id = this.authService.getUserId() || '';
 
     this.form = new FormGroup({
       frontText: new FormControl(''),
@@ -71,24 +70,9 @@ export class HomeComponent implements OnInit {
 
   async getImage() {
     const prompt = this.form.value.frontText;
-    const body =
-      '{"prompt":"' +
-      prompt +
-      '","negative_prompt":"b&w, ugly","guidance_scale":2,"seed":42,"num_images":1,"image":{"size":"square_1_1"},"styling":{"style":"vector"}}';
-
-    const options = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-freepik-api-key': 'FPSX48f78b1a02984559842180cd007cc4ae',
-      },
-      body: body,
-    };
-
-    await fetch('/api/v1/ai/text-to-image', options)
-      .then((response) => response.json())
-      .then((response) => (this.image = response['data'][0]['base64']))
-      .catch((err) => console.error(err));
+    this.cardService.getImage(prompt).then((data) => {
+      this.image = data['data'][0]['base64'];
+    });
   }
 
   async sumbmitForm() {
@@ -96,18 +80,18 @@ export class HomeComponent implements OnInit {
     const backText = this.form.value.backText;
 
     if (frontText !== '' && backText !== '') {
-      const res = await this.http
-        .post(`http://localhost:8080/cards/add`, {
-          user_id: this.user_id,
-          front_text: frontText,
-          back_text: backText,
-          score: 0,
-          image: this.image,
-        })
-        .subscribe((res) => {
-          console.log(res);
-          window.location.reload();
-        });
+      const response = await this.cardService.addCard(
+        frontText,
+        backText,
+        this.user_id,
+        this.image
+      );
+
+      if (response.ok) {
+        window.location.reload();
+      } else {
+        this.failedAdd = true;
+      }
     } else {
       this.failedAdd = true;
     }

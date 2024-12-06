@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 301,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "shirt",
+    "back_text": "chemise"
+  },
+  {
+    "_id": 302,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "pants",
+    "back_text": "pantalon"
+  },
+  {
+    "_id": 303,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "dress",
+    "back_text": "robe"
+  },
+  {
+    "_id": 304,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "skirt",
+    "back_text": "jupe"
+  },
+  {
+    "_id": 305,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "jacket",
+    "back_text": "veste"
+  },
+  {
+    "_id": 306,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "coat",
+    "back_text": "manteau"
+  },
+  {
+    "_id": 307,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "hat",
+    "back_text": "chapeau"
+  },
+  {
+    "_id": 308,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "scarf",
+    "back_text": "écharpe"
+  },
+  {
+    "_id": 309,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "gloves",
+    "back_text": "gants"
+  },
+  {
+    "_id": 310,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "shoes",
+    "back_text": "chaussures"
+  },
+  {
+    "_id": 311,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "socks",
+    "back_text": "chaussettes"
+  },
+  {
+    "_id": 312,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "belt",
+    "back_text": "ceinture"
+  },
+  {
+    "_id": 313,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "tie",
+    "back_text": "cravate"
+  },
+  {
+    "_id": 314,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "sweater",
+    "back_text": "pull"
+  },
+  {
+    "_id": 315,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "t-shirt",
+    "back_text": "t-shirt"
+  },
+  {
+    "_id": 316,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "jeans",
+    "back_text": "jean"
+  },
+  {
+    "_id": 317,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "shorts",
+    "back_text": "short"
+  },
+  {
+    "_id": 318,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "blouse",
+    "back_text": "blouse"
+  },
+  {
+    "_id": 319,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "vest",
+    "back_text": "gilet"
+  },
+  {
+    "_id": 320,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "swimsuit",
+    "back_text": "maillot de bain"
+  },
+  {
+    "_id": 321,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "cap",
+    "back_text": "casquette"
+  },
+  {
+    "_id": 322,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "hoodie",
+    "back_text": "sweat à capuche"
+  },
+  {
+    "_id": 323,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "raincoat",
+    "back_text": "imperméable"
+  },
+  {
+    "_id": 324,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "pajamas",
+    "back_text": "pyjama"
+  },
+  {
+    "_id": 325,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "boots",
+    "back_text": "bottes"
+  },
+  {
+    "_id": 326,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "sneakers",
+    "back_text": "baskets"
+  },
+  {
+    "_id": 327,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "heels",
+    "back_text": "talons"
+  },
+  {
+    "_id": 328,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "slippers",
+    "back_text": "pantoufles"
+  },
+  {
+    "_id": 329,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "sandals",
+    "back_text": "sandales"
+  },
+  {
+    "_id": 330,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "watch",
+    "back_text": "montre"
+  },
+  {
+    "_id": 331,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "bracelet",
+    "back_text": "bracelet"
+  },
+  {
+    "_id": 332,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "necklace",
+    "back_text": "collier"
+  },
+  {
+    "_id": 333,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "earrings",
+    "back_text": "boucles d'oreilles"
+  },
+  {
+    "_id": 334,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "ring",
+    "back_text": "bague"
+  },
+  {
+    "_id": 335,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "glasses",
+    "back_text": "lunettes"
+  },
+  {
+    "_id": 336,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "sunglasses",
+    "back_text": "lunettes de soleil"
+  },
+  {
+    "_id": 337,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "umbrella",
+    "back_text": "parapluie"
+  },
+  {
+    "_id": 338,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "handbag",
+    "back_text": "sac à main"
+  },
+  {
+    "_id": 339,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "wallet",
+    "back_text": "portefeuille"
+  },
+  {
+    "_id": 340,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "backpack",
+    "back_text": "sac à dos"
+  },
+  {
+    "_id": 341,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "beanie",
+    "back_text": "bonnet"
+  },
+  {
+    "_id": 342,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "belt buckle",
+    "back_text": "boucle de ceinture"
+  },
+  {
+    "_id": 343,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "cufflinks",
+    "back_text": "boutons de manchette"
+  },
+  {
+    "_id": 344,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "zipper",
+    "back_text": "fermeture éclair"
+  },
+  {
+    "_id": 345,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "button",
+    "back_text": "bouton"
+  },
+  {
+    "_id": 346,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "fabric",
+    "back_text": "tissu"
+  },
+  {
+    "_id": 347,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "suit",
+    "back_text": "costume"
+  },
+  {
+    "_id": 348,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "tuxedo",
+    "back_text": "smoking"
+  },
+  {
+    "_id": 349,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "apron",
+    "back_text": "tablier"
+  },
+  {
+    "_id": 350,
+    "ressource_pack_id": 7,
+    "lang": "en",
+    "front_text": "apron",
+    "back_text": "tablier"
+  }
+]

@@ -31,27 +31,29 @@
         (mousedown)="onDragStart($event)"
         (touchstart)="onDragStart($event)"
       >
-        @if(currentCard['image']){
-        <img
-          class="card-img"
-          [src]="'data:image/png;base64,' + currentCard['image']"
-        />
-        }@else {
-        <img class="card-img" src="/no-pic.png" />
-        }
-        <h1 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
-          {{ currentCard["front_text"] }}
-        </h1>
-        <h3
-          [ngClass]="{ hide: isFrontTextHidden }"
-          class="front-text bottom-text"
-        >
-          front side
-        </h3>
+        <div class="front-elements">
+          @if(currentCard['image']){
+          <img
+            class="card-img"
+            [src]="'data:image/png;base64,' + currentCard['image']"
+          />
+          }@else {
+          <img class="card-img" src="/no-pic.png" />
+          }
+          <h1 [ngClass]="{ hide: isFrontTextHidden }" class="front-text">
+            {{ currentCard["front_text"] }}
+          </h1>
+          <h3
+            [ngClass]="{ hide: isFrontTextHidden }"
+            class="front-text bottom-text"
+          >
+            front side
+          </h3>
+        </div>
       </div>
       } @else{
       <div class="card front-card front">
-        <h1 class="no-cards front-text">No more cards</h1>
+        <h1 class="no-cardsfront-text">No more cards</h1>
       </div>
       } } @else {
       <div
@@ -61,27 +63,29 @@
         (touchstart)="onDragStart($event)"
         [ngClass]="{ flipped: isFlipped }"
       >
-        @if(currentCard['image']){
-        <img
-          class="card-img"
-          [src]="'data:image/png;base64,' + currentCard['image']"
-        />
-        }@else {
-        <img
-          [ngClass]="{ hide: isBackTextHidden }"
-          class="card-img"
-          src="/no-pic.png"
-        />
-        }
-        <h1 [ngClass]="{ hide: isBackTextHidden }" class="back-text">
-          {{ currentCard["back_text"] }}
-        </h1>
-        <h3
-          [ngClass]="{ hide: isBackTextHidden }"
-          class="front-text bottom-text"
-        >
-          back side
-        </h3>
+        <div class="front-elements">
+          @if(currentCard['image']){
+          <img
+            class="card-img"
+            [src]="'data:image/png;base64,' + currentCard['image']"
+          />
+          }@else {
+          <img
+            [ngClass]="{ hide: isBackTextHidden }"
+            class="card-img"
+            src="/no-pic.png"
+          />
+          }
+          <h1 [ngClass]="{ hide: isBackTextHidden }" class="back-text">
+            {{ currentCard["back_text"] }}
+          </h1>
+          <h3
+            [ngClass]="{ hide: isBackTextHidden }"
+            class="front-text bottom-text"
+          >
+            back side
+          </h3>
+        </div>
       </div>
       }
     </div>

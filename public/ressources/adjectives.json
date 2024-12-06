@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 51,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "good",
+    "back_text": "bon"
+  },
+  {
+    "_id": 52,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "new",
+    "back_text": "nouveau"
+  },
+  {
+    "_id": 53,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "first",
+    "back_text": "premier"
+  },
+  {
+    "_id": 54,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "last",
+    "back_text": "dernier"
+  },
+  {
+    "_id": 55,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "long",
+    "back_text": "long"
+  },
+  {
+    "_id": 56,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "great",
+    "back_text": "génial"
+  },
+  {
+    "_id": 57,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "little",
+    "back_text": "petit"
+  },
+  {
+    "_id": 58,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "own",
+    "back_text": "propre"
+  },
+  {
+    "_id": 59,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "other",
+    "back_text": "autre"
+  },
+  {
+    "_id": 60,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "old",
+    "back_text": "vieux"
+  },
+  {
+    "_id": 61,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "right",
+    "back_text": "juste"
+  },
+  {
+    "_id": 62,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "big",
+    "back_text": "grand"
+  },
+  {
+    "_id": 63,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "high",
+    "back_text": "haut"
+  },
+  {
+    "_id": 64,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "different",
+    "back_text": "différent"
+  },
+  {
+    "_id": 65,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "small",
+    "back_text": "petit"
+  },
+  {
+    "_id": 66,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "large",
+    "back_text": "large"
+  },
+  {
+    "_id": 67,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "next",
+    "back_text": "suivant"
+  },
+  {
+    "_id": 68,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "early",
+    "back_text": "tôt"
+  },
+  {
+    "_id": 69,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "young",
+    "back_text": "jeune"
+  },
+  {
+    "_id": 70,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "important",
+    "back_text": "important"
+  },
+  {
+    "_id": 71,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "few",
+    "back_text": "peu"
+  },
+  {
+    "_id": 72,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "public",
+    "back_text": "public"
+  },
+  {
+    "_id": 73,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "bad",
+    "back_text": "mauvais"
+  },
+  {
+    "_id": 74,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "same",
+    "back_text": "même"
+  },
+  {
+    "_id": 75,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "able",
+    "back_text": "capable"
+  },
+  {
+    "_id": 76,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "happy",
+    "back_text": "heureux"
+  },
+  {
+    "_id": 77,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "sure",
+    "back_text": "sûr"
+  },
+  {
+    "_id": 78,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "clear",
+    "back_text": "clair"
+  },
+  {
+    "_id": 79,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "full",
+    "back_text": "plein"
+  },
+  {
+    "_id": 80,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "easy",
+    "back_text": "facile"
+  },
+  {
+    "_id": 81,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "strong",
+    "back_text": "fort"
+  },
+  {
+    "_id": 82,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "free",
+    "back_text": "libre"
+  },
+  {
+    "_id": 83,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "open",
+    "back_text": "ouvert"
+  },
+  {
+    "_id": 84,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "difficult",
+    "back_text": "difficile"
+  },
+  {
+    "_id": 85,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "fast",
+    "back_text": "rapide"
+  },
+  {
+    "_id": 86,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "dark",
+    "back_text": "sombre"
+  },
+  {
+    "_id": 87,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "beautiful",
+    "back_text": "beau"
+  },
+  {
+    "_id": 88,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "hot",
+    "back_text": "chaud"
+  },
+  {
+    "_id": 89,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "cold",
+    "back_text": "froid"
+  },
+  {
+    "_id": 90,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "hard",
+    "back_text": "dur"
+  },
+  {
+    "_id": 91,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "heavy",
+    "back_text": "lourd"
+  },
+  {
+    "_id": 92,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "light",
+    "back_text": "léger"
+  },
+  {
+    "_id": 93,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "rich",
+    "back_text": "riche"
+  },
+  {
+    "_id": 94,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "poor",
+    "back_text": "pauvre"
+  },
+  {
+    "_id": 95,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "short",
+    "back_text": "court"
+  },
+  {
+    "_id": 96,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "tall",
+    "back_text": "grand"
+  },
+  {
+    "_id": 97,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "simple",
+    "back_text": "simple"
+  },
+  {
+    "_id": 98,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "quiet",
+    "back_text": "calme"
+  },
+  {
+    "_id": 99,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "famous",
+    "back_text": "célèbre"
+  },
+  {
+    "_id": 100,
+    "ressource_pack_id": 2,
+    "lang": "en",
+    "front_text": "expensive",
+    "back_text": "cher"
+  }
+]

@@ -1,18 +1,30 @@
 <div class="cardslist-bloc">
   <h2 class="title">Your complete deck</h2>
 
-  
-    @if(cards.length !== 0){
-      <div class="cardslist">
-      @for(card of cards; track card.id){
-        <app-card [card]="card" />
-        }</div>
+  @if(cards && cards.length !== 0){
+  <div class="cardslist">
+    @for(card of cards; track card.id){
+    <app-card [card]="card" />
     }
-    @else {
-      <div  style="overflow-y: hidden;justify-content: center; display: flex; flex-direction: column; align-items: center;" class="cardslist">
-      <h3>No cards in your deck<br/>
-      Try adding one to play !</h3>
-      <button class="redirect"><a routerLink="add"><h3>Add a card</h3></a></button>
-    </div>
-    }   
+  </div>
+  } @else {
+  <div
+    style="
+      overflow-y: hidden;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    "
+    class="cardslist"
+  >
+    <h3>
+      No cards in your deck<br />
+      Try adding one to play !
+    </h3>
+    <button class="redirect">
+      <a routerLink="add"><h3>Add a card</h3></a>
+    </button>
+  </div>
+  }
 </div>

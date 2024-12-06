@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 101,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "apple",
+    "back_text": "pomme"
+  },
+  {
+    "_id": 102,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "bread",
+    "back_text": "pain"
+  },
+  {
+    "_id": 103,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "cheese",
+    "back_text": "fromage"
+  },
+  {
+    "_id": 104,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "chicken",
+    "back_text": "poulet"
+  },
+  {
+    "_id": 105,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "rice",
+    "back_text": "riz"
+  },
+  {
+    "_id": 106,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "egg",
+    "back_text": "œuf"
+  },
+  {
+    "_id": 107,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "milk",
+    "back_text": "lait"
+  },
+  {
+    "_id": 108,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "butter",
+    "back_text": "beurre"
+  },
+  {
+    "_id": 109,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "flour",
+    "back_text": "farine"
+  },
+  {
+    "_id": 110,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "sugar",
+    "back_text": "sucre"
+  },
+  {
+    "_id": 111,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "salt",
+    "back_text": "sel"
+  },
+  {
+    "_id": 112,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "pepper",
+    "back_text": "poivre"
+  },
+  {
+    "_id": 113,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "fish",
+    "back_text": "poisson"
+  },
+  {
+    "_id": 114,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "tomato",
+    "back_text": "tomate"
+  },
+  {
+    "_id": 115,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "onion",
+    "back_text": "oignon"
+  },
+  {
+    "_id": 116,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "potato",
+    "back_text": "pomme de terre"
+  },
+  {
+    "_id": 117,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "carrot",
+    "back_text": "carotte"
+  },
+  {
+    "_id": 118,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "lettuce",
+    "back_text": "laitue"
+  },
+  {
+    "_id": 119,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "orange",
+    "back_text": "orange"
+  },
+  {
+    "_id": 120,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "banana",
+    "back_text": "banane"
+  },
+  {
+    "_id": 121,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "grape",
+    "back_text": "raisin"
+  },
+  {
+    "_id": 122,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "strawberry",
+    "back_text": "fraise"
+  },
+  {
+    "_id": 123,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "watermelon",
+    "back_text": "pastèque"
+  },
+  {
+    "_id": 124,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "peach",
+    "back_text": "pêche"
+  },
+  {
+    "_id": 125,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "meat",
+    "back_text": "viande"
+  },
+  {
+    "_id": 126,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "beef",
+    "back_text": "bœuf"
+  },
+  {
+    "_id": 127,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "pork",
+    "back_text": "porc"
+  },
+  {
+    "_id": 128,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "lamb",
+    "back_text": "agneau"
+  },
+  {
+    "_id": 129,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "garlic",
+    "back_text": "ail"
+  },
+  {
+    "_id": 130,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "ginger",
+    "back_text": "gingembre"
+  },
+  {
+    "_id": 131,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "parsley",
+    "back_text": "persil"
+  },
+  {
+    "_id": 132,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "basil",
+    "back_text": "basilic"
+  },
+  {
+    "_id": 133,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "oregano",
+    "back_text": "origan"
+  },
+  {
+    "_id": 134,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "thyme",
+    "back_text": "thym"
+  },
+  {
+    "_id": 135,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "rosemary",
+    "back_text": "romarin"
+  },
+  {
+    "_id": 136,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "chili",
+    "back_text": "piment"
+  },
+  {
+    "_id": 137,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "olive oil",
+    "back_text": "huile d'olive"
+  },
+  {
+    "_id": 138,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "vinegar",
+    "back_text": "vinaigre"
+  },
+  {
+    "_id": 139,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "honey",
+    "back_text": "miel"
+  },
+  {
+    "_id": 140,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "jam",
+    "back_text": "confiture"
+  },
+  {
+    "_id": 141,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "pasta",
+    "back_text": "pâtes"
+  },
+  {
+    "_id": 142,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "noodles",
+    "back_text": "nouilles"
+  },
+  {
+    "_id": 143,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "chocolate",
+    "back_text": "chocolat"
+  },
+  {
+    "_id": 144,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "candy",
+    "back_text": "bonbon"
+  },
+  {
+    "_id": 145,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "cookie",
+    "back_text": "biscuit"
+  },
+  {
+    "_id": 146,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "cake",
+    "back_text": "gâteau"
+  },
+  {
+    "_id": 147,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "ice cream",
+    "back_text": "glace"
+  },
+  {
+    "_id": 148,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "juice",
+    "back_text": "jus"
+  },
+  {
+    "_id": 149,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "coffee",
+    "back_text": "café"
+  },
+  {
+    "_id": 150,
+    "ressource_pack_id": 3,
+    "lang": "en",
+    "front_text": "tea",
+    "back_text": "thé"
+  }
+]

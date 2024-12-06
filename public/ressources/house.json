@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 501,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "house",
+    "back_text": "maison"
+  },
+  {
+    "_id": 502,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "apartment",
+    "back_text": "appartement"
+  },
+  {
+    "_id": 503,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "kitchen",
+    "back_text": "cuisine"
+  },
+  {
+    "_id": 504,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "bedroom",
+    "back_text": "chambre"
+  },
+  {
+    "_id": 505,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "bathroom",
+    "back_text": "salle de bain"
+  },
+  {
+    "_id": 506,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "living room",
+    "back_text": "salon"
+  },
+  {
+    "_id": 507,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "dining room",
+    "back_text": "salle à manger"
+  },
+  {
+    "_id": 508,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "garden",
+    "back_text": "jardin"
+  },
+  {
+    "_id": 509,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "garage",
+    "back_text": "garage"
+  },
+  {
+    "_id": 510,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "roof",
+    "back_text": "toit"
+  },
+  {
+    "_id": 511,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "door",
+    "back_text": "porte"
+  },
+  {
+    "_id": 512,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "window",
+    "back_text": "fenêtre"
+  },
+  {
+    "_id": 513,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "chair",
+    "back_text": "chaise"
+  },
+  {
+    "_id": 514,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "table",
+    "back_text": "table"
+  },
+  {
+    "_id": 515,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "sofa",
+    "back_text": "canapé"
+  },
+  {
+    "_id": 516,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "bed",
+    "back_text": "lit"
+  },
+  {
+    "_id": 517,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "wardrobe",
+    "back_text": "armoire"
+  },
+  {
+    "_id": 518,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "mirror",
+    "back_text": "miroir"
+  },
+  {
+    "_id": 519,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "shelf",
+    "back_text": "étagère"
+  },
+  {
+    "_id": 520,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "lamp",
+    "back_text": "lampe"
+  },
+  {
+    "_id": 521,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "carpet",
+    "back_text": "tapis"
+  },
+  {
+    "_id": 522,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "curtains",
+    "back_text": "rideaux"
+  },
+  {
+    "_id": 523,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "drawer",
+    "back_text": "tiroir"
+  },
+  {
+    "_id": 524,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "fridge",
+    "back_text": "réfrigérateur"
+  },
+  {
+    "_id": 525,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "oven",
+    "back_text": "four"
+  },
+  {
+    "_id": 526,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "sink",
+    "back_text": "évier"
+  },
+  {
+    "_id": 527,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "toilet",
+    "back_text": "toilettes"
+  },
+  {
+    "_id": 528,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "shower",
+    "back_text": "douche"
+  },
+  {
+    "_id": 529,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "bathtub",
+    "back_text": "baignoire"
+  },
+  {
+    "_id": 530,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "cupboard",
+    "back_text": "placard"
+  },
+  {
+    "_id": 531,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "washing machine",
+    "back_text": "machine à laver"
+  },
+  {
+    "_id": 532,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "dryer",
+    "back_text": "sèche-linge"
+  },
+  {
+    "_id": 533,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "dishwasher",
+    "back_text": "lave-vaisselle"
+  },
+  {
+    "_id": 534,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "stairs",
+    "back_text": "escaliers"
+  },
+  {
+    "_id": 535,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "fireplace",
+    "back_text": "cheminée"
+  },
+  {
+    "_id": 536,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "chimney",
+    "back_text": "cheminée (toit)"
+  },
+  {
+    "_id": 537,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "ceiling",
+    "back_text": "plafond"
+  },
+  {
+    "_id": 538,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "floor",
+    "back_text": "sol"
+  },
+  {
+    "_id": 539,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "wall",
+    "back_text": "mur"
+  },
+  {
+    "_id": 540,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "painting",
+    "back_text": "peinture"
+  },
+  {
+    "_id": 541,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "clock",
+    "back_text": "horloge"
+  },
+  {
+    "_id": 542,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "television",
+    "back_text": "télévision"
+  },
+  {
+    "_id": 543,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "remote control",
+    "back_text": "télécommande"
+  },
+  {
+    "_id": 544,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "fan",
+    "back_text": "ventilateur"
+  },
+  {
+    "_id": 545,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "heater",
+    "back_text": "chauffage"
+  },
+  {
+    "_id": 546,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "air conditioner",
+    "back_text": "climatiseur"
+  },
+  {
+    "_id": 547,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "balcony",
+    "back_text": "balcon"
+  },
+  {
+    "_id": 548,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "basement",
+    "back_text": "sous-sol"
+  },
+  {
+    "_id": 549,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "attic",
+    "back_text": "grenier"
+  },
+  {
+    "_id": 550,
+    "ressource_pack_id": 11,
+    "lang": "en",
+    "front_text": "hallway",
+    "back_text": "couloir"
+  }
+]

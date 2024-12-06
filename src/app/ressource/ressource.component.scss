@@ -3,13 +3,41 @@
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
+  padding-bottom: 20px;
 }
 
 .card {
   text-align: center;
   border: solid 1px black;
-  width: 25%;
+  width: 20%;
   border-radius: 5px;
   padding: 8px;
   margin-top: 20px;
+}
+
+.head {
+  //border: solid 1px black;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 30%;
+  height: 10%;
+}
+
+@media (max-width: 1000px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 40%;
+  }
 }

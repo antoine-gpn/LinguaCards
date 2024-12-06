@@ -18,25 +18,25 @@ export class SettingsComponent implements OnInit {
   faGlobe = faGlobe;
   faLinkedin = faLinkedin;
   faGithub = faGithub;
-  user!: { [key: string]: any };
+
+  user_id!: string;
+  username!: string;
+
+  async ngOnInit() {
+    this.user_id = this.authService.getUserId();
+    this.username = this.authService.getUsername();
+  }
 
   logout() {
-    this.authService.setLoggedIn({});
+    this.authService.setLoggedIn('');
     this.router.navigate(['']);
   }
 
   deleteAccount() {
-    fetch(`http://localhost:8080/auth/delete/${this.user['id']}`, {
+    fetch(`http://localhost:8080/auth/delete/${this.user_id}`, {
       method: 'DELETE',
     });
-    this.authService.setLoggedIn({});
+    this.authService.setLoggedIn('');
     this.router.navigate(['']);
-  }
-
-  async ngOnInit() {
-    const user_id = sessionStorage.getItem('user');
-    fetch(`http://localhost:8080/auth/user/${user_id}`)
-      .then((response) => response.json())
-      .then((data) => (this.user = data));
   }
 }

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthService } from '../services/auth.service';
 import { Router, RouterLink } from '@angular/router';
-import { HttpClient, HttpParams } from '@angular/common/http';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import {
@@ -23,11 +22,7 @@ export class RegisterComponent {
   left = faCircleLeft;
   right = faCircleRight;
 
-  constructor(
-    private authService: AuthService,
-    private router: Router,
-    private http: HttpClient
-  ) {}
+  constructor(private authService: AuthService, private router: Router) {}
 
   registerForm = new FormGroup({
     username: new FormControl(''),
@@ -35,24 +30,12 @@ export class RegisterComponent {
   });
 
   async register() {
-    const username = this.registerForm.value.username;
+    const username = this.registerForm.value.username ?? '';
     const password = this.registerForm.value.password ?? '';
-    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
 
-    if (username !== '' && password !== '' && regex.test(password)) {
-      const res = await this.http
-        .post(`${this.baseUrl}/register`, {
-          username: username,
-          password: password,
-        })
-        .subscribe((user: { [key: string]: any }) => {
-          this.authService.setLoggedIn(user);
-          sessionStorage.setItem('lang', 'en');
-          fetch(`http://localhost:8080/cards/addBeginCards/${user['id']}`, {
-            method: 'POST',
-          });
-          this.router.navigate(['']);
-        });
+    const succeed = await this.authService.register(username, password);
+    if (succeed) {
+      this.router.navigate(['']);
     } else {
       this.loginFailed = true;
     }

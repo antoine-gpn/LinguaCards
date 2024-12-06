@@ -55,23 +55,26 @@
       <div class="learn-blocs">
         <div class="learn-bloc to-learn">
           <p class="learn-text">
-            To Learn<br />{{ cardsStats && cardsStats["to learn"] }}
+            {{ cardsStats && cardsStats["to learn"] }}<br />To Learn
           </p>
         </div>
         <div class="learn-bloc learning">
           <p class="learn-text">
-            Learning<br />{{ cardsStats && cardsStats["learning"] }}
+            {{ cardsStats && cardsStats["learning"] }}<br />Learning
           </p>
         </div>
         <div class="learn-bloc learned">
           <p class="learn-text">
-            Learned<br />{{ cardsStats && cardsStats["learned"] }}
+            {{ cardsStats && cardsStats["learned"] }}<br />Learned
           </p>
         </div>
       </div>
       <div class="buttons-main">
         <a routerLink="learn">
-          <button class="button-start">
+          <button
+            class="button-start"
+            [disabled]="cardsStats && cardsStats['to learn'] === 0"
+          >
             <h3>Learn</h3>
           </button></a
         >

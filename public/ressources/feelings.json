@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 451,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "happy",
+    "back_text": "heureux"
+  },
+  {
+    "_id": 452,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "sad",
+    "back_text": "triste"
+  },
+  {
+    "_id": 453,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "angry",
+    "back_text": "en colère"
+  },
+  {
+    "_id": 454,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "excited",
+    "back_text": "excité"
+  },
+  {
+    "_id": 455,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "scared",
+    "back_text": "effrayé"
+  },
+  {
+    "_id": 456,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "nervous",
+    "back_text": "nerveux"
+  },
+  {
+    "_id": 457,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "calm",
+    "back_text": "calme"
+  },
+  {
+    "_id": 458,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "confident",
+    "back_text": "confiant"
+  },
+  {
+    "_id": 459,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "tired",
+    "back_text": "fatigué"
+  },
+  {
+    "_id": 460,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "surprised",
+    "back_text": "surpris"
+  },
+  {
+    "_id": 461,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "bored",
+    "back_text": "ennuyé"
+  },
+  {
+    "_id": 462,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "frustrated",
+    "back_text": "frustré"
+  },
+  {
+    "_id": 463,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "grateful",
+    "back_text": "reconnaissant"
+  },
+  {
+    "_id": 464,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "jealous",
+    "back_text": "jaloux"
+  },
+  {
+    "_id": 465,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "hopeful",
+    "back_text": "plein d'espoir"
+  },
+  {
+    "_id": 466,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "disappointed",
+    "back_text": "déçu"
+  },
+  {
+    "_id": 467,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "lonely",
+    "back_text": "seul"
+  },
+  {
+    "_id": 468,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "proud",
+    "back_text": "fier"
+  },
+  {
+    "_id": 469,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "ashamed",
+    "back_text": "honteux"
+  },
+  {
+    "_id": 470,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "confused",
+    "back_text": "confus"
+  },
+  {
+    "_id": 471,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "anxious",
+    "back_text": "anxieux"
+  },
+  {
+    "_id": 472,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "content",
+    "back_text": "content"
+  },
+  {
+    "_id": 473,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "fearful",
+    "back_text": "craintif"
+  },
+  {
+    "_id": 474,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "relaxed",
+    "back_text": "détendu"
+  },
+  {
+    "_id": 475,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "curious",
+    "back_text": "curieux"
+  },
+  {
+    "_id": 476,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "loving",
+    "back_text": "aimant"
+  },
+  {
+    "_id": 477,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "guilty",
+    "back_text": "coupable"
+  },
+  {
+    "_id": 478,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "shy",
+    "back_text": "timide"
+  },
+  {
+    "_id": 479,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "annoyed",
+    "back_text": "ennuyé"
+  },
+  {
+    "_id": 480,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "hopeful",
+    "back_text": "optimiste"
+  },
+  {
+    "_id": 481,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "overwhelmed",
+    "back_text": "submergé"
+  },
+  {
+    "_id": 482,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "peaceful",
+    "back_text": "paisible"
+  },
+  {
+    "_id": 483,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "cheerful",
+    "back_text": "joyeux"
+  },
+  {
+    "_id": 484,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "fearless",
+    "back_text": "intrépide"
+  },
+  {
+    "_id": 485,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "melancholic",
+    "back_text": "mélancolique"
+  },
+  {
+    "_id": 486,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "empathetic",
+    "back_text": "empathique"
+  },
+  {
+    "_id": 487,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "stressed",
+    "back_text": "stressé"
+  },
+  {
+    "_id": 488,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "miserable",
+    "back_text": "misérable"
+  },
+  {
+    "_id": 489,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "insecure",
+    "back_text": "inquiet"
+  },
+  {
+    "_id": 490,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "relieved",
+    "back_text": "soulagé"
+  },
+  {
+    "_id": 491,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "worried",
+    "back_text": "inquiet"
+  },
+  {
+    "_id": 492,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "optimistic",
+    "back_text": "optimiste"
+  },
+  {
+    "_id": 493,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "disheartened",
+    "back_text": "découragé"
+  },
+  {
+    "_id": 494,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "ecstatic",
+    "back_text": "en extase"
+  },
+  {
+    "_id": 495,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "thoughtful",
+    "back_text": "pensif"
+  },
+  {
+    "_id": 496,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "grumpy",
+    "back_text": "grognon"
+  },
+  {
+    "_id": 497,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "caring",
+    "back_text": "attentionné"
+  },
+  {
+    "_id": 498,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "determined",
+    "back_text": "déterminé"
+  },
+  {
+    "_id": 499,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "doubtful",
+    "back_text": "douteux"
+  },
+  {
+    "_id": 500,
+    "ressource_pack_id": 10,
+    "lang": "en",
+    "front_text": "doubtful",
+    "back_text": "douteux"
+  }
+]

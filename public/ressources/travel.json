@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 401,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "airport",
+    "back_text": "aéroport"
+  },
+  {
+    "_id": 402,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "train",
+    "back_text": "train"
+  },
+  {
+    "_id": 403,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "ticket",
+    "back_text": "billet"
+  },
+  {
+    "_id": 404,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "passport",
+    "back_text": "passeport"
+  },
+  {
+    "_id": 405,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "hotel",
+    "back_text": "hôtel"
+  },
+  {
+    "_id": 406,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "reservation",
+    "back_text": "réservation"
+  },
+  {
+    "_id": 407,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "luggage",
+    "back_text": "bagages"
+  },
+  {
+    "_id": 408,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "suitcase",
+    "back_text": "valise"
+  },
+  {
+    "_id": 409,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "map",
+    "back_text": "carte"
+  },
+  {
+    "_id": 410,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "guidebook",
+    "back_text": "guide touristique"
+  },
+  {
+    "_id": 411,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "taxi",
+    "back_text": "taxi"
+  },
+  {
+    "_id": 412,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "bus",
+    "back_text": "bus"
+  },
+  {
+    "_id": 413,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "subway",
+    "back_text": "métro"
+  },
+  {
+    "_id": 414,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "station",
+    "back_text": "gare"
+  },
+  {
+    "_id": 415,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "car rental",
+    "back_text": "location de voiture"
+  },
+  {
+    "_id": 416,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "departure",
+    "back_text": "départ"
+  },
+  {
+    "_id": 417,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "arrival",
+    "back_text": "arrivée"
+  },
+  {
+    "_id": 418,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "customs",
+    "back_text": "douane"
+  },
+  {
+    "_id": 419,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "security check",
+    "back_text": "contrôle de sécurité"
+  },
+  {
+    "_id": 420,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "boarding pass",
+    "back_text": "carte d'embarquement"
+  },
+  {
+    "_id": 421,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "gate",
+    "back_text": "porte d'embarquement"
+  },
+  {
+    "_id": 422,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "flight",
+    "back_text": "vol"
+  },
+  {
+    "_id": 423,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "delay",
+    "back_text": "retard"
+  },
+  {
+    "_id": 424,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "cancel",
+    "back_text": "annuler"
+  },
+  {
+    "_id": 425,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "tourist",
+    "back_text": "touriste"
+  },
+  {
+    "_id": 426,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "destination",
+    "back_text": "destination"
+  },
+  {
+    "_id": 427,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "travel insurance",
+    "back_text": "assurance voyage"
+  },
+  {
+    "_id": 428,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "currency",
+    "back_text": "monnaie"
+  },
+  {
+    "_id": 429,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "foreign exchange",
+    "back_text": "change de devises"
+  },
+  {
+    "_id": 430,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "language",
+    "back_text": "langue"
+  },
+  {
+    "_id": 431,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "embassy",
+    "back_text": "ambassade"
+  },
+  {
+    "_id": 432,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "visa",
+    "back_text": "visa"
+  },
+  {
+    "_id": 433,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "itinerary",
+    "back_text": "itinéraire"
+  },
+  {
+    "_id": 434,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "hotel room",
+    "back_text": "chambre d'hôtel"
+  },
+  {
+    "_id": 435,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "key",
+    "back_text": "clé"
+  },
+  {
+    "_id": 436,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "reception",
+    "back_text": "réception"
+  },
+  {
+    "_id": 437,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "check-in",
+    "back_text": "enregistrement"
+  },
+  {
+    "_id": 438,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "check-out",
+    "back_text": "départ"
+  },
+  {
+    "_id": 439,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "breakfast",
+    "back_text": "petit-déjeuner"
+  },
+  {
+    "_id": 440,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "lunch",
+    "back_text": "déjeuner"
+  },
+  {
+    "_id": 441,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "dinner",
+    "back_text": "dîner"
+  },
+  {
+    "_id": 442,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "souvenir",
+    "back_text": "souvenir"
+  },
+  {
+    "_id": 443,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "landmark",
+    "back_text": "point de repère"
+  },
+  {
+    "_id": 444,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "tour guide",
+    "back_text": "guide touristique"
+  },
+  {
+    "_id": 445,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "museum",
+    "back_text": "musée"
+  },
+  {
+    "_id": 446,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "park",
+    "back_text": "parc"
+  },
+  {
+    "_id": 447,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "beach",
+    "back_text": "plage"
+  },
+  {
+    "_id": 448,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "mountain",
+    "back_text": "montagne"
+  },
+  {
+    "_id": 449,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "vacation",
+    "back_text": "vacances"
+  },
+  {
+    "_id": 450,
+    "ressource_pack_id": 9,
+    "lang": "en",
+    "front_text": "cruise",
+    "back_text": "croisière"
+  }
+]

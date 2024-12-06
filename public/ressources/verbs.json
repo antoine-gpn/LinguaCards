@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 1,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to be",
+    "back_text": "être"
+  },
+  {
+    "_id": 2,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to have",
+    "back_text": "avoir"
+  },
+  {
+    "_id": 3,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to do",
+    "back_text": "faire"
+  },
+  {
+    "_id": 4,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to say",
+    "back_text": "dire"
+  },
+  {
+    "_id": 5,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to go",
+    "back_text": "aller"
+  },
+  {
+    "_id": 6,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to get",
+    "back_text": "obtenir"
+  },
+  {
+    "_id": 7,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to make",
+    "back_text": "fabriquer"
+  },
+  {
+    "_id": 8,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to know",
+    "back_text": "savoir"
+  },
+  {
+    "_id": 9,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to think",
+    "back_text": "penser"
+  },
+  {
+    "_id": 10,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to take",
+    "back_text": "prendre"
+  },
+  {
+    "_id": 11,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to see",
+    "back_text": "voir"
+  },
+  {
+    "_id": 12,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to come",
+    "back_text": "venir"
+  },
+  {
+    "_id": 13,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to want",
+    "back_text": "vouloir"
+  },
+  {
+    "_id": 14,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to use",
+    "back_text": "utiliser"
+  },
+  {
+    "_id": 15,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to find",
+    "back_text": "trouver"
+  },
+  {
+    "_id": 16,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to give",
+    "back_text": "donner"
+  },
+  {
+    "_id": 17,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to tell",
+    "back_text": "dire"
+  },
+  {
+    "_id": 18,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to work",
+    "back_text": "travailler"
+  },
+  {
+    "_id": 19,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to call",
+    "back_text": "appeler"
+  },
+  {
+    "_id": 20,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to try",
+    "back_text": "essayer"
+  },
+  {
+    "_id": 21,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to ask",
+    "back_text": "demander"
+  },
+  {
+    "_id": 22,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to need",
+    "back_text": "avoir besoin de"
+  },
+  {
+    "_id": 23,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to feel",
+    "back_text": "ressentir"
+  },
+  {
+    "_id": 24,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to become",
+    "back_text": "devenir"
+  },
+  {
+    "_id": 25,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to leave",
+    "back_text": "quitter"
+  },
+  {
+    "_id": 26,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to put",
+    "back_text": "mettre"
+  },
+  {
+    "_id": 27,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to mean",
+    "back_text": "signifier"
+  },
+  {
+    "_id": 28,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to keep",
+    "back_text": "garder"
+  },
+  {
+    "_id": 29,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to let",
+    "back_text": "laisser"
+  },
+  {
+    "_id": 30,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to begin",
+    "back_text": "commencer"
+  },
+  {
+    "_id": 31,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to seem",
+    "back_text": "sembler"
+  },
+  {
+    "_id": 32,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to help",
+    "back_text": "aider"
+  },
+  {
+    "_id": 33,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to talk",
+    "back_text": "parler"
+  },
+  {
+    "_id": 34,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to turn",
+    "back_text": "tourner"
+  },
+  {
+    "_id": 35,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to start",
+    "back_text": "commencer"
+  },
+  {
+    "_id": 36,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to show",
+    "back_text": "montrer"
+  },
+  {
+    "_id": 37,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to hear",
+    "back_text": "entendre"
+  },
+  {
+    "_id": 38,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to play",
+    "back_text": "jouer"
+  },
+  {
+    "_id": 39,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to run",
+    "back_text": "courir"
+  },
+  {
+    "_id": 40,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to move",
+    "back_text": "bouger"
+  },
+  {
+    "_id": 41,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to like",
+    "back_text": "aimer"
+  },
+  {
+    "_id": 42,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to live",
+    "back_text": "vivre"
+  },
+  {
+    "_id": 43,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to believe",
+    "back_text": "croire"
+  },
+  {
+    "_id": 44,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to hold",
+    "back_text": "tenir"
+  },
+  {
+    "_id": 45,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to bring",
+    "back_text": "apporter"
+  },
+  {
+    "_id": 46,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to write",
+    "back_text": "écrire"
+  },
+  {
+    "_id": 47,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to sit",
+    "back_text": "s'asseoir"
+  },
+  {
+    "_id": 48,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to stand",
+    "back_text": "se tenir debout"
+  },
+  {
+    "_id": 49,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to lose",
+    "back_text": "perdre"
+  },
+  {
+    "_id": 50,
+    "ressource_pack_id": 1,
+    "lang": "en",
+    "front_text": "to pay",
+    "back_text": "payer"
+  }
+]

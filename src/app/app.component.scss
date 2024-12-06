@@ -7,7 +7,6 @@
 app-header {
   height: 6vh;
   border-bottom: solid 2px rgba(128, 128, 128, 0.548);
-  background-color: rgb(245, 229, 229);
   padding-top: 10px;
 }
 
@@ -18,8 +17,6 @@ app-header {
 }
 
 .footer {
-  background-color: rgb(245, 229, 229);
-  //background-color: red;
   text-align: center;
   height: 5.5vh;
   padding-top: 10px;
@@ -30,6 +27,8 @@ app-header {
   .footer {
     //background-color: blue;
     height: 8vh;
+    display: flex;
+    justify-content: center;
   }
 }
 

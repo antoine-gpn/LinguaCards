@@ -47,7 +47,6 @@
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   text-align: center;
-  border: solid 1px rgb(167, 167, 167);
   text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
     -1px -1px 0 black, 1px 1px 1px black, 1px -1px 1px black, 1px 1px 1px black,
     -1px 1px 1px black;
@@ -62,7 +61,7 @@
 
 .button-start {
   border-radius: 20px;
-  background-color: #a73449;
+  background-color: #c91a1a;
   color: white;
   width: 45%;
   border: solid 1px grey;
@@ -71,7 +70,7 @@
 .button-add {
   border-radius: 50px;
   padding: 0 2px 0 2px;
-  background-color: #a73449;
+  background-color: #c91a1a;
   color: white;
   width: 50px;
   margin-left: 5%;
@@ -88,15 +87,18 @@
 }
 
 .to-learn {
-  background-color: rgb(252, 129, 129);
+  background-color: rgb(253, 181, 181);
+  border: solid 4px rgb(250, 92, 92);
 }
 
 .learning {
-  background-color: rgb(240, 190, 96);
+  background-color: rgb(255, 229, 181);
+  border: solid 4px rgb(221, 163, 55);
 }
 
 .learned {
-  background-color: rgb(146, 255, 146);
+  background-color: rgb(183, 250, 183);
+  border: solid 4px rgb(81, 245, 81);
 }
 
 .newcard-bloc {
@@ -149,7 +151,7 @@ fieldset:focus-within {
   border: solid 1px gray;
   color: white;
   font-weight: bold;
-  background-color: #a73449;
+  background-color: #c91a1a;
   margin-bottom: 20px;
 }
 
@@ -190,10 +192,24 @@ fieldset:focus-within {
   background-repeat: no-repeat;
 }
 
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 @media (max-width: 1000px) {
   .learn-blocs {
     flex-direction: column;
     width: 60%;
+  }
+
+  .add-bloc {
+    display: none;
+  }
+
+  .home-main,
+  .home-cards {
+    width: 45%;
   }
 }
 
@@ -203,20 +219,15 @@ fieldset:focus-within {
     background: #a73449;
   }
 
-  .home-main {
-    width: 80%;
+  .home-main,
+  .add-bloc,
+  .home-cards {
+    width: 70%;
     margin: auto;
   }
 
   .home-cards {
-    width: 80%;
-    margin: auto;
-    height: 100vh;
-  }
-
-  .add-bloc {
-    margin: auto;
-    width: 80%;
+    margin-bottom: 20px;
   }
 
   .learn-blocs {
@@ -225,6 +236,25 @@ fieldset:focus-within {
   }
 
   .learn-bloc {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-main,
+  .home-cards {
+    width: 85%;
+  }
+
+  .learn-bloc {
+    margin-bottom: 0px;
+  }
+
+  .learn-blocs {
+    gap: 15px;
+  }
+
+  .buttons-main {
+    margin-top: 40px;
   }
 }

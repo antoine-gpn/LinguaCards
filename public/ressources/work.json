@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 551,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "office",
+    "back_text": "bureau"
+  },
+  {
+    "_id": 552,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "desk",
+    "back_text": "bureau (meuble)"
+  },
+  {
+    "_id": 553,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "chair",
+    "back_text": "chaise"
+  },
+  {
+    "_id": 554,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "computer",
+    "back_text": "ordinateur"
+  },
+  {
+    "_id": 555,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "keyboard",
+    "back_text": "clavier"
+  },
+  {
+    "_id": 556,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "mouse",
+    "back_text": "souris"
+  },
+  {
+    "_id": 557,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "monitor",
+    "back_text": "écran"
+  },
+  {
+    "_id": 558,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "printer",
+    "back_text": "imprimante"
+  },
+  {
+    "_id": 559,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "scanner",
+    "back_text": "scanner"
+  },
+  {
+    "_id": 560,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "documents",
+    "back_text": "documents"
+  },
+  {
+    "_id": 561,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "folder",
+    "back_text": "dossier"
+  },
+  {
+    "_id": 562,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "pen",
+    "back_text": "stylo"
+  },
+  {
+    "_id": 563,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "notebook",
+    "back_text": "cahier"
+  },
+  {
+    "_id": 564,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "paper",
+    "back_text": "papier"
+  },
+  {
+    "_id": 565,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "stapler",
+    "back_text": "agrafeuse"
+  },
+  {
+    "_id": 566,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "paperclip",
+    "back_text": "trombone"
+  },
+  {
+    "_id": 567,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "highlighter",
+    "back_text": "surligneur"
+  },
+  {
+    "_id": 568,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "calculator",
+    "back_text": "calculatrice"
+  },
+  {
+    "_id": 569,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "whiteboard",
+    "back_text": "tableau blanc"
+  },
+  {
+    "_id": 570,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "marker",
+    "back_text": "feutre"
+  },
+  {
+    "_id": 571,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "calendar",
+    "back_text": "calendrier"
+  },
+  {
+    "_id": 572,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "clock",
+    "back_text": "horloge"
+  },
+  {
+    "_id": 573,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "meeting",
+    "back_text": "réunion"
+  },
+  {
+    "_id": 574,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "presentation",
+    "back_text": "présentation"
+  },
+  {
+    "_id": 575,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "projector",
+    "back_text": "projecteur"
+  },
+  {
+    "_id": 576,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "boardroom",
+    "back_text": "salle de réunion"
+  },
+  {
+    "_id": 577,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "coworker",
+    "back_text": "collègue"
+  },
+  {
+    "_id": 578,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "manager",
+    "back_text": "gestionnaire"
+  },
+  {
+    "_id": 579,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "intern",
+    "back_text": "stagiaire"
+  },
+  {
+    "_id": 580,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "client",
+    "back_text": "client"
+  },
+  {
+    "_id": 581,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "contract",
+    "back_text": "contrat"
+  },
+  {
+    "_id": 582,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "invoice",
+    "back_text": "facture"
+  },
+  {
+    "_id": 583,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "deadline",
+    "back_text": "date limite"
+  },
+  {
+    "_id": 584,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "task",
+    "back_text": "tâche"
+  },
+  {
+    "_id": 585,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "team",
+    "back_text": "équipe"
+  },
+  {
+    "_id": 586,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "salary",
+    "back_text": "salaire"
+  },
+  {
+    "_id": 587,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "promotion",
+    "back_text": "promotion"
+  },
+  {
+    "_id": 588,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "resignation",
+    "back_text": "démission"
+  },
+  {
+    "_id": 589,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "email",
+    "back_text": "email"
+  },
+  {
+    "_id": 590,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "phone",
+    "back_text": "téléphone"
+  },
+  {
+    "_id": 591,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "call",
+    "back_text": "appel"
+  },
+  {
+    "_id": 592,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "break",
+    "back_text": "pause"
+  },
+  {
+    "_id": 593,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "report",
+    "back_text": "rapport"
+  },
+  {
+    "_id": 594,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "feedback",
+    "back_text": "retour"
+  },
+  {
+    "_id": 595,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "supervisor",
+    "back_text": "superviseur"
+  },
+  {
+    "_id": 596,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "schedule",
+    "back_text": "emploi du temps"
+  },
+  {
+    "_id": 597,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "supplies",
+    "back_text": "fournitures"
+  },
+  {
+    "_id": 598,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "goal",
+    "back_text": "objectif"
+  },
+  {
+    "_id": 599,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "workplace",
+    "back_text": "lieu de travail"
+  },
+  {
+    "_id": 600,
+    "ressource_pack_id": 12,
+    "lang": "en",
+    "front_text": "workload",
+    "back_text": "charge de travail"
+  }
+]

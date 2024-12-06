@@ -1,3 +1,16 @@
+<div class="head">
+  @if(url){
+
+  <img [src]="url" />
+
+  }
+  <div>
+    <h1>
+      Here is a list of 50 words of vocabulary to help you improve your english
+    </h1>
+    <h2>You can add them to your deck !</h2>
+  </div>
+</div>
 <div class="cards-list">
   @for(card of cards; track card['id']){
   <div class="card">

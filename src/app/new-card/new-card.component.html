@@ -6,7 +6,7 @@
       [src]="'data:image/png;base64,' + image"
       alt="Generated Image"
     />
-    } @else{ @if(card['image']){
+    } @else if(card && card['image']){
     <img
       class="api-img"
       [src]="'data:image/png;base64,' + card['image']"
@@ -14,7 +14,7 @@
     />
     }@else {
     <img class="api-img" src="/no-image.png" alt="Generated Image" />
-    } }
+    }
     <div class="fieldset">
       <fieldset>
         <legend>Front Text</legend>

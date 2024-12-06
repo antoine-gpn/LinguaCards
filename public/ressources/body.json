@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 201,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "head",
+    "back_text": "tête"
+  },
+  {
+    "_id": 202,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "eye",
+    "back_text": "œil"
+  },
+  {
+    "_id": 203,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "nose",
+    "back_text": "nez"
+  },
+  {
+    "_id": 204,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "mouth",
+    "back_text": "bouche"
+  },
+  {
+    "_id": 205,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "ear",
+    "back_text": "oreille"
+  },
+  {
+    "_id": 206,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "hair",
+    "back_text": "cheveux"
+  },
+  {
+    "_id": 207,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "neck",
+    "back_text": "cou"
+  },
+  {
+    "_id": 208,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "shoulder",
+    "back_text": "épaule"
+  },
+  {
+    "_id": 209,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "arm",
+    "back_text": "bras"
+  },
+  {
+    "_id": 210,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "hand",
+    "back_text": "main"
+  },
+  {
+    "_id": 211,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "finger",
+    "back_text": "doigt"
+  },
+  {
+    "_id": 212,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "thumb",
+    "back_text": "pouce"
+  },
+  {
+    "_id": 213,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "chest",
+    "back_text": "poitrine"
+  },
+  {
+    "_id": 214,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "stomach",
+    "back_text": "ventre"
+  },
+  {
+    "_id": 215,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "back",
+    "back_text": "dos"
+  },
+  {
+    "_id": 216,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "waist",
+    "back_text": "taille"
+  },
+  {
+    "_id": 217,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "leg",
+    "back_text": "jambe"
+  },
+  {
+    "_id": 218,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "knee",
+    "back_text": "genou"
+  },
+  {
+    "_id": 219,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "foot",
+    "back_text": "pied"
+  },
+  {
+    "_id": 220,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "toe",
+    "back_text": "orteil"
+  },
+  {
+    "_id": 221,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "skin",
+    "back_text": "peau"
+  },
+  {
+    "_id": 222,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "bone",
+    "back_text": "os"
+  },
+  {
+    "_id": 223,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "muscle",
+    "back_text": "muscle"
+  },
+  {
+    "_id": 224,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "heart",
+    "back_text": "cœur"
+  },
+  {
+    "_id": 225,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "brain",
+    "back_text": "cerveau"
+  },
+  {
+    "_id": 226,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "lung",
+    "back_text": "poumon"
+  },
+  {
+    "_id": 227,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "liver",
+    "back_text": "foie"
+  },
+  {
+    "_id": 228,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "kidney",
+    "back_text": "rein"
+  },
+  {
+    "_id": 229,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "intestine",
+    "back_text": "intestin"
+  },
+  {
+    "_id": 230,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "eye lid",
+    "back_text": "paupière"
+  },
+  {
+    "_id": 231,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "eyebrow",
+    "back_text": "sourcil"
+  },
+  {
+    "_id": 232,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "eyelash",
+    "back_text": "cil"
+  },
+  {
+    "_id": 233,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "cheek",
+    "back_text": "joue"
+  },
+  {
+    "_id": 234,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "chin",
+    "back_text": "menton"
+  },
+  {
+    "_id": 235,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "jaw",
+    "back_text": "mâchoire"
+  },
+  {
+    "_id": 236,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "teeth",
+    "back_text": "dents"
+  },
+  {
+    "_id": 237,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "tongue",
+    "back_text": "langue"
+  },
+  {
+    "_id": 238,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "throat",
+    "back_text": "gorge"
+  },
+  {
+    "_id": 239,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "elbow",
+    "back_text": "coude"
+  },
+  {
+    "_id": 240,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "wrist",
+    "back_text": "poignet"
+  },
+  {
+    "_id": 241,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "palm",
+    "back_text": "paume"
+  },
+  {
+    "_id": 242,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "nail",
+    "back_text": "ongle"
+  },
+  {
+    "_id": 243,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "rib",
+    "back_text": "côte"
+  },
+  {
+    "_id": 244,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "spine",
+    "back_text": "colonne vertébrale"
+  },
+  {
+    "_id": 245,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "vein",
+    "back_text": "veine"
+  },
+  {
+    "_id": 246,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "artery",
+    "back_text": "artère"
+  },
+  {
+    "_id": 247,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "nerve",
+    "back_text": "nerf"
+  },
+  {
+    "_id": 248,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "ankle",
+    "back_text": "cheville"
+  },
+  {
+    "_id": 249,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "heel",
+    "back_text": "talon"
+  },
+  {
+    "_id": 250,
+    "ressource_pack_id": 5,
+    "lang": "en",
+    "front_text": "forehead",
+    "back_text": "front"
+  }
+]

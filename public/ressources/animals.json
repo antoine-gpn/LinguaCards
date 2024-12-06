@@ -1,0 +1,352 @@
+[
+  {
+    "_id": 351,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "dog",
+    "back_text": "chien"
+  },
+  {
+    "_id": 352,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "cat",
+    "back_text": "chat"
+  },
+  {
+    "_id": 353,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "bird",
+    "back_text": "oiseau"
+  },
+  {
+    "_id": 354,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "fish",
+    "back_text": "poisson"
+  },
+  {
+    "_id": 355,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "horse",
+    "back_text": "cheval"
+  },
+  {
+    "_id": 356,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "cow",
+    "back_text": "vache"
+  },
+  {
+    "_id": 357,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "sheep",
+    "back_text": "mouton"
+  },
+  {
+    "_id": 358,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "goat",
+    "back_text": "chèvre"
+  },
+  {
+    "_id": 359,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "lion",
+    "back_text": "lion"
+  },
+  {
+    "_id": 360,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "tiger",
+    "back_text": "tigre"
+  },
+  {
+    "_id": 361,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "elephant",
+    "back_text": "éléphant"
+  },
+  {
+    "_id": 362,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "monkey",
+    "back_text": "singe"
+  },
+  {
+    "_id": 363,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "bear",
+    "back_text": "ours"
+  },
+  {
+    "_id": 364,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "wolf",
+    "back_text": "loup"
+  },
+  {
+    "_id": 365,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "fox",
+    "back_text": "renard"
+  },
+  {
+    "_id": 366,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "rabbit",
+    "back_text": "lapin"
+  },
+  {
+    "_id": 367,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "deer",
+    "back_text": "cerf"
+  },
+  {
+    "_id": 368,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "squirrel",
+    "back_text": "écureuil"
+  },
+  {
+    "_id": 369,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "frog",
+    "back_text": "grenouille"
+  },
+  {
+    "_id": 370,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "snake",
+    "back_text": "serpent"
+  },
+  {
+    "_id": 371,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "bee",
+    "back_text": "abeille"
+  },
+  {
+    "_id": 372,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "ant",
+    "back_text": "fourmi"
+  },
+  {
+    "_id": 373,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "butterfly",
+    "back_text": "papillon"
+  },
+  {
+    "_id": 374,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "spider",
+    "back_text": "araignée"
+  },
+  {
+    "_id": 375,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "flower",
+    "back_text": "fleur"
+  },
+  {
+    "_id": 376,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "tree",
+    "back_text": "arbre"
+  },
+  {
+    "_id": 377,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "bush",
+    "back_text": "buisson"
+  },
+  {
+    "_id": 378,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "grass",
+    "back_text": "herbe"
+  },
+  {
+    "_id": 379,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "leaf",
+    "back_text": "feuille"
+  },
+  {
+    "_id": 380,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "forest",
+    "back_text": "forêt"
+  },
+  {
+    "_id": 381,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "mountain",
+    "back_text": "montagne"
+  },
+  {
+    "_id": 382,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "river",
+    "back_text": "rivière"
+  },
+  {
+    "_id": 383,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "lake",
+    "back_text": "lac"
+  },
+  {
+    "_id": 384,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "ocean",
+    "back_text": "océan"
+  },
+  {
+    "_id": 385,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "desert",
+    "back_text": "désert"
+  },
+  {
+    "_id": 386,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "island",
+    "back_text": "île"
+  },
+  {
+    "_id": 387,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "volcano",
+    "back_text": "volcan"
+  },
+  {
+    "_id": 388,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "rainforest",
+    "back_text": "forêt tropicale"
+  },
+  {
+    "_id": 389,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "cave",
+    "back_text": "grotte"
+  },
+  {
+    "_id": 390,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "jungle",
+    "back_text": "jungle"
+  },
+  {
+    "_id": 391,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "savanna",
+    "back_text": "savane"
+  },
+  {
+    "_id": 392,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "meadow",
+    "back_text": "prairie"
+  },
+  {
+    "_id": 393,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "cliff",
+    "back_text": "falaise"
+  },
+  {
+    "_id": 394,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "waterfall",
+    "back_text": "cascade"
+  },
+  {
+    "_id": 395,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "hill",
+    "back_text": "colline"
+  },
+  {
+    "_id": 396,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "plain",
+    "back_text": "plaine"
+  },
+  {
+    "_id": 397,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "reef",
+    "back_text": "récif"
+  },
+  {
+    "_id": 398,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "penguin",
+    "back_text": "manchot"
+  },
+  {
+    "_id": 399,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "whale",
+    "back_text": "baleine"
+  },
+  {
+    "_id": 400,
+    "ressource_pack_id": 8,
+    "lang": "en",
+    "front_text": "dolphin",
+    "back_text": "dauphin"
+  }
+]

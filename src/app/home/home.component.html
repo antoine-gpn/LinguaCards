@@ -7,7 +7,15 @@
 >
   <div class="add-bloc">
     <div class="newcard-bloc">
-      <h2 style="margin-bottom: 50px">Add a new card</h2>
+      <h2
+        style="
+          margin-bottom: 50px;
+          background-color: rgb(16, 142, 201);
+          color: white;
+        "
+      >
+        ADD A NEW CARD
+      </h2>
       <form [formGroup]="form" (submit)="sumbmitForm()">
         @if(image){
         <img
@@ -42,7 +50,7 @@
           </fieldset>
         </div>
         <div>
-          <button type="submit" class="button-save">Save</button>
+          <button type="submit" class="button-save">SAVE</button>
         </div>
       </form>
       @if(failedAdd){
@@ -52,20 +60,29 @@
   </div>
   <div class="home-main">
     <div class="main-bloc">
+      <h2
+        style="
+          margin-bottom: 50px;
+          background-color: rgb(16, 142, 201);
+          color: white;
+        "
+      >
+        CARDS DATA
+      </h2>
       <div class="learn-blocs">
         <div class="learn-bloc to-learn">
           <p class="learn-text">
-            {{ cardsStats && cardsStats["to learn"] }}<br />To Learn
+            {{ (cardsStats && cardsStats["to learn"]) || 0 }}<br />To Learn
           </p>
         </div>
         <div class="learn-bloc learning">
           <p class="learn-text">
-            {{ cardsStats && cardsStats["learning"] }}<br />Learning
+            {{ (cardsStats && cardsStats["learning"]) || 0 }}<br />Learning
           </p>
         </div>
         <div class="learn-bloc learned">
           <p class="learn-text">
-            {{ cardsStats && cardsStats["learned"] }}<br />Learned
+            {{ (cardsStats && cardsStats["learned"]) || 0 }}<br />Learned
           </p>
         </div>
       </div>
@@ -75,7 +92,7 @@
             class="button-start"
             [disabled]="cardsStats && cardsStats['to learn'] === 0"
           >
-            <h3>Learn</h3>
+            <h3>LEARN</h3>
           </button></a
         >
         <a routerLink="add">

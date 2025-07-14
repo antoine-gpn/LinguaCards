@@ -4,6 +4,7 @@ import { jwtDecode } from 'jwt-decode';
 @Injectable({ providedIn: 'root' })
 export class AuthService {
   private baseUrl = 'http://localhost:8080/auth';
+  //private baseUrl = 'https://linguacards-back.onrender.com/auth';
 
   logout(): void {
     sessionStorage.removeItem('isLoggedIn');
@@ -27,7 +28,7 @@ export class AuthService {
   getUserId() {
     const token: string = sessionStorage.getItem('token') || '';
     const decoded: { [key: string]: any } = jwtDecode(token);
-    return decoded['userId'];
+    return decoded['id'];
   }
 
   getUsername() {
@@ -42,9 +43,9 @@ export class AuthService {
     if (username !== '' && password !== '' && regex.test(password)) {
       const response = await fetch(`${this.baseUrl}/register`, {
         method: 'POST',
-        headers: {
+        /*headers: {
           'Content-Type': 'application/json',
-        },
+        },*/
         body: JSON.stringify({
           username: username,
           password: password,

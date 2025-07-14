@@ -92,10 +92,10 @@
   height: 92vh;
   background: linear-gradient(
     to right,
-    rgb(252, 204, 204) 45%,
+    rgb(255, 226, 226) 35%,
     rgb(255, 240, 240) 50%,
     rgb(234, 252, 234) 50%,
-    rgb(192, 250, 192) 55%
+    rgb(217, 252, 217) 65%
   );
 }
 
@@ -109,12 +109,12 @@
 }
 
 .swipe-left {
-  color: green;
+  color: red;
   margin-top: 0;
 }
 
 .swipe-right {
-  color: red;
+  color: green;
   margin-top: 0;
 }
 

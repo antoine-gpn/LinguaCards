@@ -1,5 +1,28 @@
 <div class="cardslist-bloc">
-  <h2 class="title">Your complete deck</h2>
+  <h2
+    style="
+      margin-bottom: 50px;
+      background-color: rgb(16, 142, 201);
+      color: white;
+    "
+  >
+    YOUR COMPLETE DECK
+  </h2>
+
+  <div class="input-bloc">
+    <select class="input" (change)="updateSelect($event)">
+      <option>All</option>
+      <option>To learn</option>
+      <option>Learning</option>
+      <option>Learned</option>
+    </select>
+    <input
+      type="text"
+      class="input"
+      placeholder="Filter by text..."
+      (input)="updateInput($event)"
+    />
+  </div>
 
   @if(cards && cards.length !== 0){
   <div class="cardslist">

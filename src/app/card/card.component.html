@@ -8,7 +8,7 @@
   }"
 >
   <div class="img-container">
-    @if(card['image']){
+    @if(card['image'] && ! isImageCorrupted(card['image'])){
     <img class="img" [src]="'data:image/png;base64,' + card['image']" />
     }@else {
     <img class="img" src="/grey.png" />

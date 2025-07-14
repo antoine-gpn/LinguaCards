@@ -54,4 +54,8 @@ export class CardComponent {
   updateCard(id: string) {
     this.router.navigateByUrl(`add/${id}`);
   }
+
+  isImageCorrupted(image: string): boolean {
+    return image.length < 50;
+  }
 }

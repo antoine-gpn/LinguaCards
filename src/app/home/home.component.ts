@@ -6,7 +6,6 @@ import { CardService } from '../services/card.service';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { NgClass } from '@angular/common';
 import { ReactiveFormsModule, FormGroup, FormControl } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
 import { AuthService } from '../services/auth.service';
 
 @Component({
@@ -25,7 +24,6 @@ import { AuthService } from '../services/auth.service';
 export class HomeComponent implements OnInit {
   constructor(
     private cardService: CardService,
-    private http: HttpClient,
     private router: Router,
     private route: ActivatedRoute,
     private authService: AuthService

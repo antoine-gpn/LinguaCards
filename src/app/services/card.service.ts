@@ -1,19 +1,12 @@
-import { Injectable, OnInit } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { AuthService } from './auth.service';
 
 @Injectable({ providedIn: 'root' })
-export class CardService implements OnInit {
+export class CardService {
   private baseUrl = 'http://localhost:8080/cards';
-  private headers!: {};
+  //private baseUrl = 'https://linguacards-back.onrender.com/cards';
 
   constructor(private authService: AuthService) {}
-
-  ngOnInit(): void {
-    this.headers = {
-      Authorization: `Bearer ${this.authService.getToken()}`,
-      'Content-Type': 'application/json',
-    };
-  }
 
   async getAllCards() {
     const user = this.authService.getUserId();

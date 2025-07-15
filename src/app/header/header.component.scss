@@ -44,3 +44,9 @@ img {
     display: none;
   }
 }
+
+@media (max-height: 800px) {
+  #country-select {
+  height: 40px;
+  }
+}

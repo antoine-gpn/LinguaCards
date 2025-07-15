@@ -42,3 +42,11 @@ app-header {
     flex: 1 0 auto;
   }
 }
+
+@media (max-height: 650px) {
+  app-header{
+    padding-top: 3px;
+    padding-bottom: 7px;
+  }
+
+}

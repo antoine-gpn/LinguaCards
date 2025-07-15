@@ -17,6 +17,9 @@ export class CardslistComponent implements OnInit {
     private authService: AuthService
   ) {}
 
+  //private baseUrl = 'http://localhost:8080';
+  private baseUrl = 'https://linguacards-node.onrender.com';
+
   cards!: any[];
   searchSelect: string = 'All';
   searchInput: string = '';
@@ -40,7 +43,7 @@ export class CardslistComponent implements OnInit {
 
   async updateList() {
     const response = await fetch(
-      `http://localhost:8080/cards/cardsFilter/${this.authService.getUserId()}/${
+      `${this.baseUrl}/cards/cardsFilter/${this.authService.getUserId()}/${
         this.searchSelect
       }/${this.searchInput !== '' ? this.searchInput : 'null'}`,
       {

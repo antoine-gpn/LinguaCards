@@ -3,8 +3,8 @@ import { jwtDecode } from 'jwt-decode';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private baseUrl = 'http://localhost:8080/auth';
-  //private baseUrl = 'https://linguacards-back.onrender.com/auth';
+  //private baseUrl = 'http://localhost:8080/auth';
+  private baseUrl = 'https://linguacards-node.onrender.com/auth';
 
   logout(): void {
     sessionStorage.removeItem('isLoggedIn');
@@ -28,6 +28,7 @@ export class AuthService {
   getUserId() {
     const token: string = sessionStorage.getItem('token') || '';
     const decoded: { [key: string]: any } = jwtDecode(token);
+    console.log(decoded);
     return decoded['id'];
   }
 

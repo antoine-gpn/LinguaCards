@@ -4,9 +4,10 @@
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  //background-color: rgb(217, 218, 223);
-  border: solid 1px rgb(80, 80, 80);
+  background-color: rgb(251, 254, 255);
+  border: solid 1px rgb(181, 181, 181);
   padding: 10px;
+  padding-left: 0;
   display: flex;
   justify-content: space-around;
   text-align: left;
@@ -82,15 +83,15 @@ fa-icon {
 }
 
 .red {
-  background-color: #fdc9c9;
+  color: hsl(53, 90%, 45%);
 }
 
 .yellow {
-  background-color: #ffdfa4;
+  color: #ffdfa4;
 }
 
 .green {
-  background-color: #b0ffb0;
+  color: #b0ffb0;
 }
 
 .img {
@@ -102,6 +103,10 @@ fa-icon {
 
 .img-container {
   width: 10%;
+}
+
+.card-txt{
+  margin-left: 5px;
 }
 
 @media (max-width: 1200px) {

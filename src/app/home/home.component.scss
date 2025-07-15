@@ -71,7 +71,7 @@
   border-radius: 20px;
   background-color: #158dc5;
   color: white;
-  width: 45%;
+  width: 60%;
   border: solid 1px grey;
 }
 
@@ -85,6 +85,7 @@
   border: solid 1px grey;
   justify-content: center;
   align-items: center;
+  display: none;
 }
 
 .buttons-main {
@@ -95,13 +96,13 @@
 }
 
 .to-learn {
-  background-color: rgb(253, 201, 201);
-  border: solid 2px rgb(255, 101, 101);
+  background-color: rgb(255, 232, 189);
+  border: solid 2px rgb(221, 163, 55);
 }
 
 .learning {
-  background-color: rgb(255, 232, 189);
-  border: solid 2px rgb(221, 163, 55);
+  background-color: rgb(209, 217, 243);
+  border: solid 2px rgb(134, 132, 236);
 }
 
 .learned {
@@ -190,11 +191,43 @@ button:disabled {
   opacity: 0.5;
 }
 
+.cards-data{
+  margin-bottom: 50px;
+  background-color: rgb(16, 142, 201);
+  color: white;
+}
+
+@media (max-width: 1400px) {
+
+  .home {
+  gap: 1.5%;
+  }
+.add-bloc {
+  width: 32%;
+}
+
+.home-main {
+  width: 32%;
+}
+
+.home-cards {
+  width: 32%;
+}
+}
+
 @media (max-width: 1000px) {
   .learn-blocs {
     flex-direction: column;
     width: 60%;
   }
+
+  .button-add{
+    display: inline;
+  }
+
+  .button-start {
+  width: 45%;
+}
 
   .add-bloc {
     display: none;
@@ -249,4 +282,59 @@ button:disabled {
   .buttons-main {
     margin-top: 40px;
   }
+}
+
+
+@media (max-height: 830px) {
+  .home{
+    //background-color: red
+  };
+
+  .learn-blocs {
+  gap: 15px;
+  margin-top: 0px;
+}
+
+.cards-data{
+  margin-bottom: 20px;
+}
+
+.buttons-main {
+  margin-top: 20px;
+}
+
+}
+
+@media (max-height: 750px) {
+  .learn-bloc {
+  padding: 5px 30px 5px 30px;
+}
+
+.api-img {
+  margin-bottom: 25px;
+}
+
+.fieldset {
+  margin-bottom: 15px;
+}
+}
+
+@media (max-height: 700px) {
+  .home{
+    //background-color: red
+  };
+
+  .learn-bloc {
+  padding: 0px 30px 0px 30px;
+}
+
+.main-bloc {
+  height: 88%;
+  margin-top: 35px;
+}
+
+.newcard-bloc {
+  height: 88%;
+  
+}
 }

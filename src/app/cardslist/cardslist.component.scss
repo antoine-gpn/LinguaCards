@@ -6,7 +6,7 @@
   height: 85.5%;
   margin-top: 50px;
   box-shadow: 1px 1px 0px 0px rgba(61, 61, 61, 0.856);
-  border: solid 1px grey;
+  border: solid 1px rgb(171, 171, 171);
 
   h2 {
     margin-top: 0;
@@ -19,13 +19,16 @@
 .cardslist {
   margin: auto;
   width: 90%;
-  height: 75%;
+  height: 80%;
   overflow-y: scroll;
   overflow-x: hidden;
   border-radius: 3px;
-  //border: solid 1px grey;
-  border-radius: 10px;
-  box-shadow: 1px 1px 3px 1px rgba(61, 61, 61, 0.788);
+  border: solid 1px rgb(241, 241, 241);
+  border-radius: 7px;
+  //box-shadow: 1px 1px 3px 1px rgba(61, 61, 61, 0.788);
+
+  scrollbar-width: thin; 
+  scrollbar-color: #9a9a9a #f0f0f0;
 }
 
 .title {
@@ -70,15 +73,20 @@
 .input-bloc {
   width: 88%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: flex;
   justify-content: center;
   gap: 5%;
   height: 28px;
 
   .input {
-    border-radius: 5px;
-    border: solid 1px gray;
+    border-radius: 8px;
+    border: solid 1px rgb(150, 150, 150);
+    height: 37px;
+    margin-top: 10px;
+    width: 20%;
+    padding-left: 15px;
+    font-family: "Tommy";
   }
 
   .input:focus {
@@ -95,6 +103,45 @@
   }
 }
 
+fieldset{
+  border-radius: 8px;
+  height: 30px;
+  width: 60%;
+
+  input{
+    border: none;
+  }
+  
+}
+
+fieldset:hover{
+
+  input{
+    outline: none;
+  }
+  
+}
+
+
+.cardslist::-webkit-scrollbar {
+  width: 8px;
+}
+
+.cardslist::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.cardslist::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.cardslist::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
 @media (max-width: 800px) {
   .cardslist-bloc {
     height: 70vh;
@@ -103,4 +150,30 @@
   .cardslist {
     height: 73%;
   }
+
+  .input-bloc {
+
+  .input {
+    width: 25%;
+    padding-left: 7px;
+  }
+}
+}
+
+@media (max-height: 810px) {
+
+.cardslist {
+  height: 76%;
+}
+}
+
+@media (max-height: 700px) {
+  .cardslist-bloc {
+    margin-top: 35px;
+    height: 88%;
+}
+
+.cardslist {
+  height: 73%;
+}
 }

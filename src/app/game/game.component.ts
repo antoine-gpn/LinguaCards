@@ -11,6 +11,7 @@ import {
 import { CardService } from '../services/card.service';
 import { Renderer2 } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-game',
@@ -42,6 +43,65 @@ export class GameComponent implements OnInit {
     this.cards = await this.cardService.getAllLearningCards();
     this.currentCard = this.cards[0];
   }
+
+@HostListener('document:keydown', ['$event'])
+handleKeyboardEvent(event: KeyboardEvent) {
+  if (this.finished || this.isTransitioning) return;
+
+  // Flip si carte non retournée
+  if (!this.isFlipped && ['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'Enter'].includes(event.key)) {
+    this.flip();
+    return;
+  }
+
+  // Swipe si carte déjà retournée
+  if (this.isFlipped) {
+    if (event.key === 'ArrowRight') {
+      this.handleSwipe('left');
+    } else if (event.key === 'ArrowLeft') {
+      this.handleSwipe('right');
+    }
+  }
+}
+
+handleArrowClick(direction: 'left' | 'right') {
+  if (this.finished || this.isTransitioning) return;
+
+  if (!this.isFlipped) {
+    this.flip();
+    return;
+  }
+
+  this.handleSwipe(direction);
+}
+
+handleSwipe(direction: 'left' | 'right') {
+  const frontCard = document.querySelector('.front-card') as HTMLElement;
+  if (!frontCard) return;
+
+  this.isTransitioning = true;
+
+  frontCard.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+
+  const offset = direction === 'right' ? 1000 : -1000;
+  const finalRotation = direction === 'right' ? 15 : -15;
+
+  frontCard.style.transform = `translateX(${offset}px) rotate(${finalRotation}deg)`;
+  frontCard.style.opacity = '0';
+
+  setTimeout(() => {
+    this.flipOnNewCard();
+    this.updateScore(direction);
+    this.replaceCard();
+
+    frontCard.style.transition = 'none';
+    frontCard.style.transform = 'translateX(0) rotate(0)';
+    frontCard.style.opacity = '1';
+
+    this.isTransitioning = false;
+  }, 300);
+}
+
 
   flip() {
     if (!this.isFlipped && !this.finished) {

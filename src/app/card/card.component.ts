@@ -4,6 +4,7 @@ import {
   faXmark,
   faPenToSquare,
   faRotate,
+  faClockRotateLeft
 } from '@fortawesome/free-solid-svg-icons';
 import { CardService } from '../services/card.service';
 import { HttpClient } from '@angular/common/http';
@@ -24,6 +25,7 @@ export class CardComponent {
   faXmark = faXmark;
   faPenToSquare = faPenToSquare;
   faRotate = faRotate;
+  faClockRotateLeft = faClockRotateLeft
 
   constructor(
     private cardService: CardService,

@@ -1,7 +1,7 @@
 <div class="cardslist-bloc">
   <h2
     style="
-      margin-bottom: 50px;
+      margin-bottom: 10px;
       background-color: rgb(16, 142, 201);
       color: white;
     "
@@ -16,12 +16,15 @@
       <option>Learning</option>
       <option>Learned</option>
     </select>
-    <input
+
+    <fieldset>
+      <legend>Search</legend>
+      <input
       type="text"
-      class="input"
-      placeholder="Filter by text..."
       (input)="updateInput($event)"
     />
+    </fieldset>
+
   </div>
 
   @if(cards && cards.length !== 0){

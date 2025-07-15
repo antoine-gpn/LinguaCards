@@ -2,11 +2,13 @@
   class="card"
   [ngClass]="{
     hide: isDeleted,
+  }"
+>
+<fa-icon style="margin-top: 15px; font-size: 22px;" [icon]="faClockRotateLeft"[ngClass]="{
     red: card['score'] < 5,
     green: card['score'] >= 10,
     yellow: card['score'] > 5 && card['score'] < 10
-  }"
->
+  }" />
   <div class="img-container">
     @if(card['image'] && ! isImageCorrupted(card['image'])){
     <img class="img" [src]="'data:image/png;base64,' + card['image']" />
@@ -14,7 +16,7 @@
     <img class="img" src="/grey.png" />
     }
   </div>
-  <div style="width: 50%">
+  <div style="width: 50%" class="card-txt">
     <h4>{{ card["front_text"] }}</h4>
     <h4>{{ card["back_text"] }}</h4>
   </div>

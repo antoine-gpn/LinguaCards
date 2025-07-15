@@ -3,8 +3,8 @@ import { AuthService } from './auth.service';
 
 @Injectable({ providedIn: 'root' })
 export class CardService {
-  private baseUrl = 'http://localhost:8080/cards';
-  //private baseUrl = 'https://linguacards-back.onrender.com/cards';
+  //private baseUrl = 'http://localhost:8080/cards';
+  private baseUrl = 'https://linguacards-node.onrender.com/cards';
 
   constructor(private authService: AuthService) {}
 
@@ -61,7 +61,7 @@ export class CardService {
     userId: string,
     image: string
   ) {
-    const response = await fetch(`http://localhost:8080/cards/add`, {
+    const response = await fetch(`${this.baseUrl}/add`, {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${this.authService.getToken()}`,

@@ -44,8 +44,8 @@
 .learn-blocs {
   justify-content: space-around;
   display: flex;
-  flex-direction: column;
-  width: 50%;
+  flex-direction: row;
+  width: 85%;
   margin: auto;
   gap: 20px;
   margin-top: 20px;
@@ -191,28 +191,47 @@ button:disabled {
   opacity: 0.5;
 }
 
-.cards-data{
+.cards-data {
   margin-bottom: 50px;
   background-color: rgb(16, 142, 201);
   color: white;
 }
 
-@media (max-width: 1400px) {
+.logo {
+  width: 175px;
+  margin-top: 50px;
+  opacity: 0.92;
+}
 
-  .home {
-  gap: 1.5%;
+@media (max-width: 1600px) {
+  .learn-blocs {
+    flex-direction: column;
   }
-.add-bloc {
-  width: 32%;
+
+  .logo {
+    display: none;
+  }
 }
 
-.home-main {
-  width: 32%;
-}
+@media (max-width: 1400px) {
+  .home {
+    gap: 1.5%;
+  }
+  .add-bloc {
+    width: 32%;
+  }
 
-.home-cards {
-  width: 32%;
-}
+  .home-main {
+    width: 32%;
+  }
+
+  .home-cards {
+    width: 32%;
+  }
+
+  .learn-blocs {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -221,13 +240,13 @@ button:disabled {
     width: 60%;
   }
 
-  .button-add{
+  .button-add {
     display: inline;
   }
 
   .button-start {
-  width: 45%;
-}
+    width: 45%;
+  }
 
   .add-bloc {
     display: none;
@@ -284,57 +303,62 @@ button:disabled {
   }
 }
 
-
 @media (max-height: 830px) {
-  .home{
+  .home {
     //background-color: red
-  };
+  }
 
   .learn-blocs {
-  gap: 15px;
-  margin-top: 0px;
-}
+    gap: 15px;
+    margin-top: 0px;
+  }
 
-.cards-data{
-  margin-bottom: 20px;
-}
+  .cards-data {
+    margin-bottom: 20px;
+  }
 
-.buttons-main {
-  margin-top: 20px;
-}
-
+  .buttons-main {
+    margin-top: 20px;
+  }
 }
 
 @media (max-height: 750px) {
   .learn-bloc {
-  padding: 5px 30px 5px 30px;
-}
+    padding: 5px 30px 5px 30px;
+  }
 
-.api-img {
-  margin-bottom: 25px;
-}
+  .api-img {
+    margin-bottom: 25px;
+  }
 
-.fieldset {
-  margin-bottom: 15px;
-}
+  .fieldset {
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    width: 100px;
+  }
 }
 
 @media (max-height: 700px) {
-  .home{
+  .home {
     //background-color: red
-  };
+  }
 
   .learn-bloc {
-  padding: 0px 30px 0px 30px;
-}
+    padding: 0px 30px 0px 30px;
+  }
 
-.main-bloc {
-  height: 88%;
-  margin-top: 35px;
-}
+  .main-bloc {
+    height: 88%;
+    margin-top: 35px;
+  }
 
-.newcard-bloc {
-  height: 88%;
-  
-}
+  .newcard-bloc {
+    height: 88%;
+  }
+
+  .logo {
+    display: none;
+  }
 }

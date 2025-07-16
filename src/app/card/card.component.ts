@@ -10,6 +10,7 @@ import { CardService } from '../services/card.service';
 import { HttpClient } from '@angular/common/http';
 import { NgClass } from '@angular/common';
 import { Router, RouterLink } from '@angular/router';
+
 @Component({
   selector: 'app-card',
   standalone: true,

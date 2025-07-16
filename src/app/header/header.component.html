@@ -1,13 +1,15 @@
 <header>
   <div class="header-left">
-    <select id="country-select" (change)="changeLanguage($event)">
-      @for(lang of langs; track lang["value"]){
-      <option [value]="lang['value']">{{ lang["text"] }}</option>
-      }
-    </select>
+    <div class="flags">
+    @for(lang of langs; track lang){
+      <a (click)="changeLang(lang['value'])">
+        <img class="flag" [ngClass]="{'flag-selected': currentLang === lang['value']}" [src]="lang['icon']" width="32" />
+      </a> 
+    }
+    </div>
   </div>
-  <div class="header-center">
-    <a routerLink=""> <img src="/logo.png" /></a>
+  <div class="header-center"> 
+    <a routerLink=""> <img class="logo" src="/logo.png" /></a>
     <h1>LinguaCards</h1>
   </div>
 </header>

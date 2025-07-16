@@ -1,35 +1,54 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { NgClass } from '@angular/common';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterLink],
+  imports: [RouterLink, NgClass],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent implements OnInit {
   langs: { [key: string]: string }[] = [
-    { text: 'French', value: 'fr' },
-    { text: 'English', value: 'en' },
+    { icon: 'france.png', value: 'fr' },
+    { icon: 'united-kingdom.png', value: 'en' },
+    { icon: 'spain.png', value: 'es' },
+    { icon: 'germany.png', value: 'ge' },
+    { icon: 'italy.png', value: 'it' },
   ];
+  currentLang: string|null = null;
+
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const lang = sessionStorage.getItem('lang');
-    this.langs.sort((a, b) => {
-      if (a['value'] === lang) {
-        return -1;
-      } else if (b['value'] === lang) {
-        return 1;
-      }
-      return 0;
-    });
+    this.router.events
+      .pipe(filter(event => event instanceof NavigationEnd))
+      .subscribe(() => {
+        const queryParams = this.route.snapshot.queryParamMap;
+        const lang = queryParams.get('lang');
+
+        if (lang && ['fr', 'en', 'es', 'ge'].includes(lang)) {
+          this.currentLang = lang;
+        } else {
+          this.currentLang = 'fr';
+        }
+        console.log(this.currentLang)
+      });
+  
+    //const lang = sessionStorage.getItem('lang');
   }
 
-  changeLanguage(event: Event): void {
-    const select = event.target as HTMLSelectElement;
-    const lang = select.value;
-    sessionStorage.setItem('lang', lang);
-    window.location.reload();
-  }
+  changeLang(newLang: string) {
+  this.router.navigate([], {
+    relativeTo: this.route,
+    queryParams: { lang: newLang },
+    queryParamsHandling: 'merge', 
+    replaceUrl: true              
+  });
+}
+
+
 }
